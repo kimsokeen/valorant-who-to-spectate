@@ -1,24 +1,24 @@
 {
   "map": "2026-10-01_tyloo_vs_team-liquid_map2",
-  "halftime_time_s": 1375.624,
+  "halftime_time_s": 1792.04,
   "halves": {
     "first": {
       "team_left": [
         {
           "name": "kamo",
-          "agreement": 0.8
+          "agreement": 0.75
         },
         {
           "name": "GSR",
-          "agreement": 0.8
+          "agreement": 0.75
         },
         {
           "name": "nAts",
-          "agreement": 0.8
+          "agreement": 0.75
         },
         {
           "name": "Kicks",
-          "agreement": 0.8
+          "agreement": 0.75
         },
         {
           "name": "trex",
@@ -28,23 +28,23 @@
       "team_right": [
         {
           "name": "Scales",
-          "agreement": 0.8
+          "agreement": 0.75
         },
         {
           "name": "Splash",
-          "agreement": 0.8
+          "agreement": 0.75
         },
         {
           "name": "SiufatBB",
-          "agreement": 0.8
+          "agreement": 0.75
         },
         {
           "name": "Erv",
-          "agreement": 0.67
+          "agreement": 0.75
         },
         {
           "name": "slowly",
-          "agreement": 0.67
+          "agreement": 0.75
         }
       ],
       "tags": {
@@ -55,46 +55,46 @@
     "second": {
       "team_left": [
         {
-          "name": "i",
-          "agreement": 0.17
+          "name": "kamo",
+          "agreement": 0.9
         },
         {
-          "name": "Oe",
-          "agreement": 0.17
+          "name": "GSR",
+          "agreement": 0.9
         },
         {
-          "name": "ZT",
+          "name": "nAts",
+          "agreement": 0.9
+        },
+        {
+          "name": "Kicks",
+          "agreement": 0.9
+        },
+        {
+          "name": "trexx",
           "agreement": 0.33
-        },
-        {
-          "name": "",
-          "agreement": 0.0
-        },
-        {
-          "name": "wr",
-          "agreement": 0.5
         }
       ],
       "team_right": [
         {
-          "name": "po",
-          "agreement": 0.25
+          "name": "Scales",
+          "agreement": 0.9
         },
         {
-          "name": "fF",
-          "agreement": 0.17
+          "name": "Splash",
+          "agreement": 0.9
         },
         {
-          "name": "a",
-          "agreement": 0.08
+          "name": "SiufatBB",
+          "agreement": 0.9
         },
         {
-          "name": "a",
-          "agreement": 0.58
+          "name": "Erv",
+          "agreement": 0.9
         },
         {
-          "name": "www",
-          "agreement": 0.67
+          "name": "slowly",
+          "agreement": 0.88
         }
       ],
       "tags": {

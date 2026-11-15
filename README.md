@@ -83,6 +83,19 @@ python scripts/extract_crops.py vods/<map>.mp4 --start 1200 --end 1260  # 2. 1-m
 python scripts/process_all.py data/champions2026_summit_maps.csv        # 3. all maps, 5 at a time
 ```
 
+## Reading the screen (week 2)
+
+Tesseract OCR is needed: install it from https://github.com/UB-Mannheim/tesseract/wiki (keep the default folder).
+
+```
+python scripts/build_rosters.py     # 10 player names per map, from the player cards -> data/rosters/
+python scripts/read_killfeed.py     # every kill: round, time, killer, victim -> data/kills/
+```
+
+The kill feed reader splits each row where the team colour changes, reads killer and victim separately, and matches them to the map's roster, so OCR slips ("Tuk xo") and cut-off tags still resolve. Killer and victim must be on opposite teams. Each kill is counted once per (round, victim), at the moment it first appears.
+
+Checked on the Grand Final: the first four rounds give VIT 3 - LOUD 1, matching the broadcast score.
+
 ## Roadmap
 
 1. **Data** — VODs, calibrated regions, skip replays and caster cams

@@ -5,6 +5,11 @@ Run once per broadcast overlay, on any VOD from that event:
 
 Saves configs/markers/<name>.png. Open them: each should be clean HUD text
 ("CURRENT:", "ROUND"). Then it prints how much of the video counts as gameplay.
+
+Learn an extra look of one marker from part of a video (e.g. overtime, where
+the text above the timer changes):
+    python scripts/build_markers.py vods/<map>.mp4 --learn round_label --variant overtime --start 3540
+This saves configs/markers/round_label__overtime.png and keeps the existing ones.
 """
 
 from __future__ import annotations
@@ -19,7 +24,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from pickpov.gameplay import GameplayDetector, build_markers, frames_at  # noqa: E402
+from pickpov.gameplay import GameplayDetector, build_markers, frames_at, learn_variant  # noqa: E402
 from pickpov.regions import Region  # noqa: E402
 
 
@@ -29,17 +34,27 @@ def main() -> None:
     parser.add_argument("video")
     parser.add_argument("--config", default=str(ROOT / "configs" / "broadcast_regions.yaml"))
     parser.add_argument("--check-every", type=float, default=10.0, help="seconds between checks in the report")
+    parser.add_argument("--learn", help="learn an extra look of this marker (e.g. round_label)")
+    parser.add_argument("--variant", default="alt", help="name for the extra look (e.g. overtime)")
+    parser.add_argument("--start", type=float, default=0.0, help="--learn: start of the stretch, seconds")
+    parser.add_argument("--end", type=float, default=None, help="--learn: end of the stretch, seconds")
     args = parser.parse_args()
 
     config_path = Path(args.config)
     data = yaml.safe_load(config_path.read_text())
     regions = {n: Region(n, **{k: v for k, v in b.items() if k != "slides"})
                for n, b in data["gameplay"]["markers"].items()}
-    markers = build_markers(args.video, regions)
-    (config_path.parent / "markers").mkdir(exist_ok=True)
-    for name, img in markers.items():
-        cv2.imwrite(str(config_path.parent / "markers" / f"{name}.png"), img)
-        print(f"saved configs/markers/{name}.png")
+    if args.learn:
+        img = learn_variant(args.video, GameplayDetector.load(config_path), args.learn, args.start, args.end)
+        out = config_path.parent / "markers" / f"{args.learn}__{args.variant}.png"
+        cv2.imwrite(str(out), img)
+        print(f"saved {out.relative_to(ROOT)}  (open it to check it is clean HUD text)")
+    else:
+        markers = build_markers(args.video, regions)
+        (config_path.parent / "markers").mkdir(exist_ok=True)
+        for name, img in markers.items():
+            cv2.imwrite(str(config_path.parent / "markers" / f"{name}.png"), img)
+            print(f"saved configs/markers/{name}.png")
 
     det = GameplayDetector.load(config_path)
     cap = cv2.VideoCapture(args.video)
