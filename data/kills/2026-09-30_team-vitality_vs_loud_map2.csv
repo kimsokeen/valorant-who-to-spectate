@@ -34,7 +34,6 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 4,484.48,Erde,right,Jamppi,left,5
 4,485.49,,,Derke,left,1
 4,540.54,Jamppi,left,Darker,right,5
-4,541.54,,,Jamppi,left,4
 4,560.56,Sayonara,left,tkzin,right,3
 4,564.56,PROFEK,left,Erde,right,4
 5,691.94,Jamppi,left,Erde,right,4
@@ -78,7 +77,6 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 10,1589.34,tkzin,right,PROFEK,left,3
 10,1596.35,Erde,right,Chronicle,left,4
 10,1604.35,Erde,right,Derke,left,3
-10,1607.36,,,Erde,right,1
 10,1647.4,Jamppi,left,Erde,right,5
 10,1669.42,tkzin,right,Sayonara,left,2
 10,1679.43,tkzin,right,Jamppi,left,4
@@ -121,7 +119,6 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 15,2319.57,luk xo,right,PROFEK,left,4
 15,2322.57,Derke,left,Erde,right,1
 15,2323.57,Derke,left,luk xo,right,1
-15,2360.61,,,Darker,right,1
 15,2361.61,Darker,right,Derke,left,4
 16,2505.5,Derke,left,Erde,right,1
 16,2550.55,luk xo,right,Chronicle,left,5

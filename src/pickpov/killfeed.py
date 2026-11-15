@@ -254,6 +254,25 @@ def split_joined_rounds(res: dict, rounds_played: int) -> int:
     return splits
 
 
+def drop_duplicate_deaths(res: dict) -> int:
+    """Nobody dies twice in a round: keep the best-supported death, drop the rest.
+
+    Run after the round fixes. A second "death" left in a round is a misread
+    (e.g. "Derke" seen once as "Darker"). Keep the one with a known killer and
+    the most sightings. Returns how many were dropped.
+    """
+    best = {}
+    for k in res["kills"]:
+        key = (k["round"], k["victim"])
+        score = (k["killer"] is not None, k["seen"])
+        if key not in best or score > best[key][0]:
+            best[key] = (score, id(k))
+    keep = {v[1] for v in best.values()}
+    before = len(res["kills"])
+    res["kills"] = [k for k in res["kills"] if id(k) in keep]
+    return before - len(res["kills"])
+
+
 def merge_split_rounds(res: dict, rounds_played: int) -> int:
     """Join stretches that are really one round split by a pause or replay.
 

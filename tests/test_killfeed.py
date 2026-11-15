@@ -64,3 +64,13 @@ def test_splits_two_rounds_that_ran_together():
     res = {"rounds": 1, "kills": kills, "spans": [[0, 130]]}
     assert split_joined_rounds(res, 2) == 1
     assert [x["round"] for x in kills] == [0, 0, 0, 1, 1]
+
+
+def test_drops_a_misread_second_death():
+    from pickpov.killfeed import drop_duplicate_deaths
+    kills = [{"round": 2, "victim": "Darker", "killer": None, "seen": 1, "time_s": 233},
+             {"round": 2, "victim": "Darker", "killer": "PROFEK", "seen": 5, "time_s": 271},
+             {"round": 3, "victim": "Darker", "killer": "Derke", "seen": 3, "time_s": 400}]
+    res = {"kills": kills}
+    assert drop_duplicate_deaths(res) == 1
+    assert [(k["round"], k["killer"]) for k in res["kills"]] == [(2, "PROFEK"), (3, "Derke")]

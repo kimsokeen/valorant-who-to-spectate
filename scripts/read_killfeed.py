@@ -20,7 +20,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 sys.path.insert(0, str(ROOT / "scripts"))
-from pickpov.killfeed import load_roster, merge_split_rounds, read_map, split_joined_rounds  # noqa: E402
+from pickpov.killfeed import (drop_duplicate_deaths, load_roster, merge_split_rounds,  # noqa: E402
+                              read_map, split_joined_rounds)
 from pickpov.regions import load_regions  # noqa: E402
 from process_all import map_name  # noqa: E402
 
@@ -72,6 +73,7 @@ def main() -> None:
         res = read_map(Path(args.crops) / name, regions, load_roster(roster_file))
         merged = merge_split_rounds(res, played[name]) if name in played else 0
         split = split_joined_rounds(res, played[name]) if name in played else 0
+        dropped = drop_duplicate_deaths(res)
         with open(target, "w", newline="", encoding="utf-8") as f:
             w = csv.DictWriter(f, fieldnames=FIELDS, extrasaction="ignore")
             w.writeheader()
@@ -79,7 +81,8 @@ def main() -> None:
         c = check(res)
         flag = "" if c["rounds"] == played.get(name) else f"  <-- {played.get(name)} rounds were played"
         note = (f" (merged {merged} split round{'s' if merged > 1 else ''})" if merged else "") + \
-               (f" (split {split} joined round{'s' if split > 1 else ''})" if split else "")
+               (f" (split {split} joined round{'s' if split > 1 else ''})" if split else "") + \
+               (f" (dropped {dropped} duplicate death{'s' if dropped > 1 else ''})" if dropped else "")
         print(f"{name}: {c['kills']} kills in {c['rounds']} rounds{note}{flag}\n"
               f"    team wipes left/right {c['wipes']['left']}/{c['wipes']['right']}, "
               f"kills with unknown killer {c['kills_without_killer']}, "
