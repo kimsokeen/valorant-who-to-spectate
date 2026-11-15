@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-01_xi-lai-gaming_vs_nongshim-redforce_map1",
+  "halftime_time_s": 1652.651,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "Dambi",
+          "agreement": 0.88
+        },
+        {
+          "name": "Xross",
+          "agreement": 0.88
+        },
+        {
+          "name": "Rb",
+          "agreement": 0.88
+        },
+        {
+          "name": "Francis",
+          "agreement": 0.85
+        },
+        {
+          "name": "Ivy",
+          "agreement": 0.92
+        }
+      ],
+      "team_right": [
+        {
+          "name": "happywei",
+          "agreement": 0.88
+        },
+        {
+          "name": "Lysoar",
+          "agreement": 0.88
+        },
+        {
+          "name": "WsLeo",
+          "agreement": 0.85
+        },
+        {
+          "name": "NoMan",
+          "agreement": 0.88
+        },
+        {
+          "name": "Rarga",
+          "agreement": 0.8
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "1"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "Dambi",
+          "agreement": 0.9
+        },
+        {
+          "name": "Xross",
+          "agreement": 0.93
+        },
+        {
+          "name": "Rb",
+          "agreement": 0.82
+        },
+        {
+          "name": "Francis",
+          "agreement": 0.93
+        },
+        {
+          "name": "Ivy",
+          "agreement": 0.92
+        }
+      ],
+      "team_right": [
+        {
+          "name": "happywei",
+          "agreement": 0.93
+        },
+        {
+          "name": "Lysoar",
+          "agreement": 0.9
+        },
+        {
+          "name": "WsLeo",
+          "agreement": 0.93
+        },
+        {
+          "name": "NoMan",
+          "agreement": 0.93
+        },
+        {
+          "name": "Rarga",
+          "agreement": 0.92
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "1"
+      }
+    }
+  }
+}

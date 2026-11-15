@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-10_nrg_vs_loud_map3",
+  "halftime_time_s": 1840.088,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "skuba",
+          "agreement": 0.75
+        },
+        {
+          "name": "brawk",
+          "agreement": 0.75
+        },
+        {
+          "name": "Ethan",
+          "agreement": 0.75
+        },
+        {
+          "name": "keiko",
+          "agreement": 0.75
+        },
+        {
+          "name": "mada",
+          "agreement": 0.75
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Darker",
+          "agreement": 0.75
+        },
+        {
+          "name": "luk xo",
+          "agreement": 0.67
+        },
+        {
+          "name": "Erde",
+          "agreement": 0.75
+        },
+        {
+          "name": "tkzin",
+          "agreement": 0.58
+        },
+        {
+          "name": "DaviH",
+          "agreement": 0.67
+        }
+      ],
+      "tags": {
+        "left": "NRG",
+        "right": "LOUD"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "skuba",
+          "agreement": 0.82
+        },
+        {
+          "name": "brawk",
+          "agreement": 0.82
+        },
+        {
+          "name": "Ethan",
+          "agreement": 0.82
+        },
+        {
+          "name": "keiko",
+          "agreement": 0.82
+        },
+        {
+          "name": "mada",
+          "agreement": 0.82
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Darker",
+          "agreement": 0.82
+        },
+        {
+          "name": "luk xo",
+          "agreement": 0.92
+        },
+        {
+          "name": "Erde",
+          "agreement": 0.82
+        },
+        {
+          "name": "tkzin",
+          "agreement": 0.42
+        },
+        {
+          "name": "DaviH",
+          "agreement": 0.83
+        }
+      ],
+      "tags": {
+        "left": "NRG",
+        "right": "LOUD"
+      }
+    }
+  }
+}

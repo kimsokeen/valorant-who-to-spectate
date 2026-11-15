@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-17_team-vitality_vs_100-thieves_map2",
+  "halftime_time_s": 1587.586,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "Chronicle",
+          "agreement": 0.93
+        },
+        {
+          "name": "Derke",
+          "agreement": 0.93
+        },
+        {
+          "name": "Jamppi",
+          "agreement": 0.9
+        },
+        {
+          "name": "Sayonara",
+          "agreement": 0.93
+        },
+        {
+          "name": "PROFEK",
+          "agreement": 0.93
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Cryo",
+          "agreement": 0.93
+        },
+        {
+          "name": "bang",
+          "agreement": 0.93
+        },
+        {
+          "name": "Vora",
+          "agreement": 0.93
+        },
+        {
+          "name": "Asuna",
+          "agreement": 0.9
+        },
+        {
+          "name": "Timotino",
+          "agreement": 0.75
+        }
+      ],
+      "tags": {
+        "left": "VIL",
+        "right": "100T"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "Chronicle",
+          "agreement": 0.92
+        },
+        {
+          "name": "Derke",
+          "agreement": 0.8
+        },
+        {
+          "name": "Jamppi",
+          "agreement": 0.8
+        },
+        {
+          "name": "Sayonara",
+          "agreement": 0.8
+        },
+        {
+          "name": "PROFEK",
+          "agreement": 0.8
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Cryo",
+          "agreement": 0.8
+        },
+        {
+          "name": "bang",
+          "agreement": 0.92
+        },
+        {
+          "name": "Vora",
+          "agreement": 0.8
+        },
+        {
+          "name": "Asuna",
+          "agreement": 0.8
+        },
+        {
+          "name": "Timotino",
+          "agreement": 0.83
+        }
+      ],
+      "tags": {
+        "left": "VIL",
+        "right": ""
+      }
+    }
+  }
+}

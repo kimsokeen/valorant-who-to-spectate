@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-02_global-esports_vs_edward-gaming_map1",
+  "halftime_time_s": 1862.11,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "CHICHOO",
+          "agreement": 0.88
+        },
+        {
+          "name": "ZmijkK",
+          "agreement": 0.42
+        },
+        {
+          "name": "Stew",
+          "agreement": 0.93
+        },
+        {
+          "name": "nobody",
+          "agreement": 0.93
+        },
+        {
+          "name": "Smoggy",
+          "agreement": 0.9
+        }
+      ],
+      "team_right": [
+        {
+          "name": "PatMen",
+          "agreement": 0.93
+        },
+        {
+          "name": "Kristal",
+          "agreement": 0.9
+        },
+        {
+          "name": "Xavi8k",
+          "agreement": 0.67
+        },
+        {
+          "name": "UdoTan",
+          "agreement": 0.9
+        },
+        {
+          "name": "autumn",
+          "agreement": 0.93
+        }
+      ],
+      "tags": {
+        "left": "EDG",
+        "right": "GE"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "CHICHOO",
+          "agreement": 0.88
+        },
+        {
+          "name": "ZmijkK",
+          "agreement": 0.33
+        },
+        {
+          "name": "Stew",
+          "agreement": 0.88
+        },
+        {
+          "name": "nobody",
+          "agreement": 0.88
+        },
+        {
+          "name": "Smoggy",
+          "agreement": 0.88
+        }
+      ],
+      "team_right": [
+        {
+          "name": "PatMen",
+          "agreement": 0.88
+        },
+        {
+          "name": "Kristal",
+          "agreement": 0.88
+        },
+        {
+          "name": "Xavi8k",
+          "agreement": 0.85
+        },
+        {
+          "name": "UdoTan",
+          "agreement": 0.88
+        },
+        {
+          "name": "autumn",
+          "agreement": 0.88
+        }
+      ],
+      "tags": {
+        "left": "EDG",
+        "right": "GE"
+      }
+    }
+  }
+}

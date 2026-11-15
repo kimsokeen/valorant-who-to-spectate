@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-07_nrg_vs_t1_map2",
+  "halftime_time_s": 1863.361,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "skuba",
+          "agreement": 0.82
+        },
+        {
+          "name": "brawk",
+          "agreement": 0.82
+        },
+        {
+          "name": "Ethan",
+          "agreement": 0.82
+        },
+        {
+          "name": "keiko",
+          "agreement": 0.92
+        },
+        {
+          "name": "mada",
+          "agreement": 0.82
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Meteor",
+          "agreement": 0.82
+        },
+        {
+          "name": "iZu",
+          "agreement": 0.8
+        },
+        {
+          "name": "stax",
+          "agreement": 0.82
+        },
+        {
+          "name": "Munchkin",
+          "agreement": 0.82
+        },
+        {
+          "name": "BuZz",
+          "agreement": 0.82
+        }
+      ],
+      "tags": {
+        "left": "NRG",
+        "right": "N"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "skuba",
+          "agreement": 0.9
+        },
+        {
+          "name": "brawk",
+          "agreement": 0.9
+        },
+        {
+          "name": "Ethan",
+          "agreement": 0.9
+        },
+        {
+          "name": "keiko",
+          "agreement": 0.92
+        },
+        {
+          "name": "mada",
+          "agreement": 0.9
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Meteor",
+          "agreement": 0.9
+        },
+        {
+          "name": "iZu",
+          "agreement": 0.92
+        },
+        {
+          "name": "stax",
+          "agreement": 0.88
+        },
+        {
+          "name": "Munchkin",
+          "agreement": 0.9
+        },
+        {
+          "name": "BuZz",
+          "agreement": 0.9
+        }
+      ],
+      "tags": {
+        "left": "NRG",
+        "right": "T"
+      }
+    }
+  }
+}

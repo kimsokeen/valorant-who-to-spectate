@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-16_100-thieves_vs_g2-esports_map3",
+  "halftime_time_s": 1811.25,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "JAWGEMO",
+          "agreement": 0.93
+        },
+        {
+          "name": "leaf",
+          "agreement": 0.9
+        },
+        {
+          "name": "valyn",
+          "agreement": 0.93
+        },
+        {
+          "name": "trent",
+          "agreement": 0.93
+        },
+        {
+          "name": "BABYBAY",
+          "agreement": 0.9
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Cryo",
+          "agreement": 0.93
+        },
+        {
+          "name": "bang",
+          "agreement": 0.93
+        },
+        {
+          "name": "Vora",
+          "agreement": 0.9
+        },
+        {
+          "name": "Asuna",
+          "agreement": 0.93
+        },
+        {
+          "name": "Timatino",
+          "agreement": 0.5
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "100T"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "JAWGEMO",
+          "agreement": 0.9
+        },
+        {
+          "name": "leaf",
+          "agreement": 0.9
+        },
+        {
+          "name": "valyn",
+          "agreement": 0.9
+        },
+        {
+          "name": "trent",
+          "agreement": 0.9
+        },
+        {
+          "name": "BABYBAY",
+          "agreement": 0.9
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Cryo",
+          "agreement": 0.9
+        },
+        {
+          "name": "bang",
+          "agreement": 0.9
+        },
+        {
+          "name": "Vora",
+          "agreement": 0.9
+        },
+        {
+          "name": "Asuna",
+          "agreement": 0.9
+        },
+        {
+          "name": "Timatino",
+          "agreement": 0.5
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "100T"
+      }
+    }
+  }
+}

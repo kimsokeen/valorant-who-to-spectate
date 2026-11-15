@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-01_tyloo_vs_team-liquid_map2",
+  "halftime_time_s": 1375.624,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "kamo",
+          "agreement": 0.8
+        },
+        {
+          "name": "GSR",
+          "agreement": 0.8
+        },
+        {
+          "name": "nAts",
+          "agreement": 0.8
+        },
+        {
+          "name": "Kicks",
+          "agreement": 0.8
+        },
+        {
+          "name": "trex",
+          "agreement": 0.42
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Scales",
+          "agreement": 0.8
+        },
+        {
+          "name": "Splash",
+          "agreement": 0.8
+        },
+        {
+          "name": "SiufatBB",
+          "agreement": 0.8
+        },
+        {
+          "name": "Erv",
+          "agreement": 0.67
+        },
+        {
+          "name": "slowly",
+          "agreement": 0.67
+        }
+      ],
+      "tags": {
+        "left": "IT",
+        "right": "TH"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "i",
+          "agreement": 0.17
+        },
+        {
+          "name": "Oe",
+          "agreement": 0.17
+        },
+        {
+          "name": "ZT",
+          "agreement": 0.33
+        },
+        {
+          "name": "",
+          "agreement": 0.0
+        },
+        {
+          "name": "wr",
+          "agreement": 0.5
+        }
+      ],
+      "team_right": [
+        {
+          "name": "po",
+          "agreement": 0.25
+        },
+        {
+          "name": "fF",
+          "agreement": 0.17
+        },
+        {
+          "name": "a",
+          "agreement": 0.08
+        },
+        {
+          "name": "a",
+          "agreement": 0.58
+        },
+        {
+          "name": "www",
+          "agreement": 0.67
+        }
+      ],
+      "tags": {
+        "left": "IT",
+        "right": "TH"
+      }
+    }
+  }
+}

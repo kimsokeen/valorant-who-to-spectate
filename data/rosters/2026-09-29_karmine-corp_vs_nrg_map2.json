@@ -1,0 +1,106 @@
+{
+  "map": "2026-09-29_karmine-corp_vs_nrg_map2",
+  "halftime_time_s": 1527.276,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "N4RRATE",
+          "agreement": 0.88
+        },
+        {
+          "name": "SUYGETSU",
+          "agreement": 0.88
+        },
+        {
+          "name": "avez",
+          "agreement": 0.88
+        },
+        {
+          "name": "LewN",
+          "agreement": 0.85
+        },
+        {
+          "name": "dos9",
+          "agreement": 0.67
+        }
+      ],
+      "team_right": [
+        {
+          "name": "skuba",
+          "agreement": 0.88
+        },
+        {
+          "name": "brawk",
+          "agreement": 0.88
+        },
+        {
+          "name": "Ethan",
+          "agreement": 0.88
+        },
+        {
+          "name": "keiko",
+          "agreement": 0.88
+        },
+        {
+          "name": "mada",
+          "agreement": 0.8
+        }
+      ],
+      "tags": {
+        "left": "KC",
+        "right": "NRG"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "N4RRATE",
+          "agreement": 0.88
+        },
+        {
+          "name": "SUYGETSU",
+          "agreement": 0.85
+        },
+        {
+          "name": "avez",
+          "agreement": 0.85
+        },
+        {
+          "name": "LewN",
+          "agreement": 0.82
+        },
+        {
+          "name": "dos9",
+          "agreement": 0.92
+        }
+      ],
+      "team_right": [
+        {
+          "name": "skuba",
+          "agreement": 0.88
+        },
+        {
+          "name": "brawk",
+          "agreement": 0.85
+        },
+        {
+          "name": "Ethan",
+          "agreement": 0.85
+        },
+        {
+          "name": "keiko",
+          "agreement": 0.82
+        },
+        {
+          "name": "mada",
+          "agreement": 0.83
+        }
+      ],
+      "tags": {
+        "left": "KC",
+        "right": "NRE"
+      }
+    }
+  }
+}

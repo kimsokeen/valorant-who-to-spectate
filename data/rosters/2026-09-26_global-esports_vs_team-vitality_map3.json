@@ -1,0 +1,106 @@
+{
+  "map": "2026-09-26_global-esports_vs_team-vitality_map3",
+  "halftime_time_s": 1747.996,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "PatMen",
+          "agreement": 0.88
+        },
+        {
+          "name": "Kristal",
+          "agreement": 0.9
+        },
+        {
+          "name": "Xavi8k",
+          "agreement": 0.83
+        },
+        {
+          "name": "UdoTan",
+          "agreement": 0.9
+        },
+        {
+          "name": "autumn",
+          "agreement": 0.9
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Chronicle",
+          "agreement": 0.88
+        },
+        {
+          "name": "Derke",
+          "agreement": 0.9
+        },
+        {
+          "name": "Jamppi",
+          "agreement": 0.88
+        },
+        {
+          "name": "Sayonara",
+          "agreement": 0.9
+        },
+        {
+          "name": "PROFEK",
+          "agreement": 0.9
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "VT"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "PatMen",
+          "agreement": 0.82
+        },
+        {
+          "name": "Kristal",
+          "agreement": 0.82
+        },
+        {
+          "name": "Xavi8k",
+          "agreement": 0.75
+        },
+        {
+          "name": "UdoTan",
+          "agreement": 0.8
+        },
+        {
+          "name": "autumn",
+          "agreement": 0.82
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Chronicle",
+          "agreement": 0.75
+        },
+        {
+          "name": "Derke",
+          "agreement": 0.82
+        },
+        {
+          "name": "Jamppi",
+          "agreement": 0.82
+        },
+        {
+          "name": "Sayonara",
+          "agreement": 0.82
+        },
+        {
+          "name": "PROFEK",
+          "agreement": 0.8
+        }
+      ],
+      "tags": {
+        "left": "GE",
+        "right": "VT"
+      }
+    }
+  }
+}

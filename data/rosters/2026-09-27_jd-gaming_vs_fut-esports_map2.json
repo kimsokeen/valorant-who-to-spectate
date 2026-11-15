@@ -1,0 +1,106 @@
+{
+  "map": "2026-09-27_jd-gaming_vs_fut-esports_map2",
+  "halftime_time_s": 829.829,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "sOpp",
+          "agreement": 0.93
+        },
+        {
+          "name": "xeus",
+          "agreement": 0.5
+        },
+        {
+          "name": "sociablEE",
+          "agreement": 0.93
+        },
+        {
+          "name": "yetujey",
+          "agreement": 0.9
+        },
+        {
+          "name": "KROSTALY",
+          "agreement": 0.93
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Zhe",
+          "agreement": 0.93
+        },
+        {
+          "name": "Yuicaw",
+          "agreement": 0.93
+        },
+        {
+          "name": "BerLIN",
+          "agreement": 0.82
+        },
+        {
+          "name": "crownfisher",
+          "agreement": 0.93
+        },
+        {
+          "name": "jkuro",
+          "agreement": 0.58
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "IDG"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "sOpp",
+          "agreement": 0.88
+        },
+        {
+          "name": "xeus",
+          "agreement": 0.75
+        },
+        {
+          "name": "sociablEE",
+          "agreement": 0.88
+        },
+        {
+          "name": "yetujey",
+          "agreement": 0.88
+        },
+        {
+          "name": "KROSTALY",
+          "agreement": 0.88
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Zhe",
+          "agreement": 0.88
+        },
+        {
+          "name": "Yuicaw",
+          "agreement": 0.85
+        },
+        {
+          "name": "BerLIN",
+          "agreement": 0.8
+        },
+        {
+          "name": "crownfisher",
+          "agreement": 0.88
+        },
+        {
+          "name": "jkuro",
+          "agreement": 0.58
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "JD6"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-03_karmine-corp_vs_nongshim-redforce_map2",
+  "halftime_time_s": 1724.723,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "N4RRATE",
+          "agreement": 0.93
+        },
+        {
+          "name": "SUYGETSU",
+          "agreement": 0.9
+        },
+        {
+          "name": "avez",
+          "agreement": 0.88
+        },
+        {
+          "name": "LewN",
+          "agreement": 0.9
+        },
+        {
+          "name": "dos9",
+          "agreement": 0.8
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Dambi",
+          "agreement": 0.82
+        },
+        {
+          "name": "Xross",
+          "agreement": 0.82
+        },
+        {
+          "name": "Rb",
+          "agreement": 0.9
+        },
+        {
+          "name": "Francis",
+          "agreement": 0.9
+        },
+        {
+          "name": "Ivy",
+          "agreement": 0.83
+        }
+      ],
+      "tags": {
+        "left": "KC",
+        "right": "NS"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "N4RRATE",
+          "agreement": 0.88
+        },
+        {
+          "name": "SUYGETSU",
+          "agreement": 0.88
+        },
+        {
+          "name": "avez",
+          "agreement": 0.88
+        },
+        {
+          "name": "LewN",
+          "agreement": 0.88
+        },
+        {
+          "name": "dos9",
+          "agreement": 0.75
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Dambi",
+          "agreement": 0.8
+        },
+        {
+          "name": "Xross",
+          "agreement": 0.8
+        },
+        {
+          "name": "Rb",
+          "agreement": 0.88
+        },
+        {
+          "name": "Francis",
+          "agreement": 0.88
+        },
+        {
+          "name": "Ivy",
+          "agreement": 0.75
+        }
+      ],
+      "tags": {
+        "left": "KC",
+        "right": ""
+      }
+    }
+  }
+}

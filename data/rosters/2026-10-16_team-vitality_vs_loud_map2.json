@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-16_team-vitality_vs_loud_map2",
+  "halftime_time_s": 1873.371,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "Chronicle",
+          "agreement": 0.8
+        },
+        {
+          "name": "Derke",
+          "agreement": 0.85
+        },
+        {
+          "name": "Jamppi",
+          "agreement": 0.85
+        },
+        {
+          "name": "Sayonara",
+          "agreement": 0.82
+        },
+        {
+          "name": "PROFEK",
+          "agreement": 0.85
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Darker",
+          "agreement": 0.88
+        },
+        {
+          "name": "luk xo",
+          "agreement": 0.67
+        },
+        {
+          "name": "Erde",
+          "agreement": 0.85
+        },
+        {
+          "name": "tkzin",
+          "agreement": 0.42
+        },
+        {
+          "name": "DaviH",
+          "agreement": 0.75
+        }
+      ],
+      "tags": {
+        "left": "VIT",
+        "right": "LOUD"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "Chronicle",
+          "agreement": 0.82
+        },
+        {
+          "name": "Derke",
+          "agreement": 0.82
+        },
+        {
+          "name": "Jamppi",
+          "agreement": 0.85
+        },
+        {
+          "name": "Sayonara",
+          "agreement": 0.85
+        },
+        {
+          "name": "PROFEK",
+          "agreement": 0.85
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Darker",
+          "agreement": 0.85
+        },
+        {
+          "name": "luk xo",
+          "agreement": 0.42
+        },
+        {
+          "name": "Erde",
+          "agreement": 0.85
+        },
+        {
+          "name": "tkzin",
+          "agreement": 0.5
+        },
+        {
+          "name": "DaviH",
+          "agreement": 0.83
+        }
+      ],
+      "tags": {
+        "left": "VIT",
+        "right": "LOUD"
+      }
+    }
+  }
+}

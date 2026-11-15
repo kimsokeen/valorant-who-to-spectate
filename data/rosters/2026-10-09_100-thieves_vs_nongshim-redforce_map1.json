@@ -1,0 +1,106 @@
+{
+  "map": "2026-10-09_100-thieves_vs_nongshim-redforce_map1",
+  "halftime_time_s": 1695.944,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "Dambi",
+          "agreement": 0.9
+        },
+        {
+          "name": "Xross",
+          "agreement": 0.9
+        },
+        {
+          "name": "Rb",
+          "agreement": 0.9
+        },
+        {
+          "name": "Francis",
+          "agreement": 0.9
+        },
+        {
+          "name": "Ivy",
+          "agreement": 0.92
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Cryo",
+          "agreement": 0.9
+        },
+        {
+          "name": "bang",
+          "agreement": 0.88
+        },
+        {
+          "name": "Vora",
+          "agreement": 0.9
+        },
+        {
+          "name": "Asuna",
+          "agreement": 0.9
+        },
+        {
+          "name": "Timotino",
+          "agreement": 0.42
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "100T"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "Dambi",
+          "agreement": 0.93
+        },
+        {
+          "name": "Xross",
+          "agreement": 0.93
+        },
+        {
+          "name": "Rb",
+          "agreement": 0.93
+        },
+        {
+          "name": "Francis",
+          "agreement": 0.93
+        },
+        {
+          "name": "Ivy",
+          "agreement": 0.92
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Cryo",
+          "agreement": 0.93
+        },
+        {
+          "name": "bang",
+          "agreement": 0.93
+        },
+        {
+          "name": "Vora",
+          "agreement": 0.9
+        },
+        {
+          "name": "Asuna",
+          "agreement": 0.93
+        },
+        {
+          "name": "Timotino",
+          "agreement": 0.67
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "100T"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "map": "2026-09-26_loud_vs_edward-gaming_map2",
+  "halftime_time_s": 1402.901,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "Darker",
+          "agreement": 0.85
+        },
+        {
+          "name": "luk xo",
+          "agreement": 0.5
+        },
+        {
+          "name": "Erde",
+          "agreement": 0.85
+        },
+        {
+          "name": "tkzin",
+          "agreement": 0.85
+        },
+        {
+          "name": "DaviH",
+          "agreement": 0.85
+        }
+      ],
+      "team_right": [
+        {
+          "name": "CHICHOO",
+          "agreement": 0.85
+        },
+        {
+          "name": "ZmijKK",
+          "agreement": 0.17
+        },
+        {
+          "name": "Stew",
+          "agreement": 0.82
+        },
+        {
+          "name": "nobody",
+          "agreement": 0.85
+        },
+        {
+          "name": "Smoggy",
+          "agreement": 0.85
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "EDS"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "Darker",
+          "agreement": 0.67
+        },
+        {
+          "name": "luk xo",
+          "agreement": 0.58
+        },
+        {
+          "name": "Erde",
+          "agreement": 0.67
+        },
+        {
+          "name": "tkzin",
+          "agreement": 0.67
+        },
+        {
+          "name": "DaviH",
+          "agreement": 0.58
+        }
+      ],
+      "team_right": [
+        {
+          "name": "CHICHOO",
+          "agreement": 0.67
+        },
+        {
+          "name": "07 o PI",
+          "agreement": 0.17
+        },
+        {
+          "name": "Stew",
+          "agreement": 0.67
+        },
+        {
+          "name": "nobody",
+          "agreement": 0.67
+        },
+        {
+          "name": "Smoggy",
+          "agreement": 0.67
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "I"
+      }
+    }
+  }
+}

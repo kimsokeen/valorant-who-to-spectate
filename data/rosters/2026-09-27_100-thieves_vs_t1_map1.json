@@ -1,0 +1,106 @@
+{
+  "map": "2026-09-27_100-thieves_vs_t1_map1",
+  "halftime_time_s": 1762.261,
+  "halves": {
+    "first": {
+      "team_left": [
+        {
+          "name": "Cryo",
+          "agreement": 0.93
+        },
+        {
+          "name": "bang",
+          "agreement": 0.9
+        },
+        {
+          "name": "Vora",
+          "agreement": 0.9
+        },
+        {
+          "name": "Asuna",
+          "agreement": 0.9
+        },
+        {
+          "name": "Timotino",
+          "agreement": 0.88
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Meteor",
+          "agreement": 0.93
+        },
+        {
+          "name": "iZu",
+          "agreement": 0.85
+        },
+        {
+          "name": "stax",
+          "agreement": 0.9
+        },
+        {
+          "name": "Munchkin",
+          "agreement": 0.88
+        },
+        {
+          "name": "BuZz",
+          "agreement": 0.88
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "N"
+      }
+    },
+    "second": {
+      "team_left": [
+        {
+          "name": "Cryo",
+          "agreement": 0.82
+        },
+        {
+          "name": "bang",
+          "agreement": 0.82
+        },
+        {
+          "name": "Vora",
+          "agreement": 0.82
+        },
+        {
+          "name": "Asuna",
+          "agreement": 0.82
+        },
+        {
+          "name": "Timotino",
+          "agreement": 0.82
+        }
+      ],
+      "team_right": [
+        {
+          "name": "Meteor",
+          "agreement": 0.8
+        },
+        {
+          "name": "iZu",
+          "agreement": 0.67
+        },
+        {
+          "name": "stax",
+          "agreement": 0.8
+        },
+        {
+          "name": "Munchkin",
+          "agreement": 0.8
+        },
+        {
+          "name": "BuZz",
+          "agreement": 0.82
+        }
+      ],
+      "tags": {
+        "left": "",
+        "right": "N"
+      }
+    }
+  }
+}
