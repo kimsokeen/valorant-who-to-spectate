@@ -1,67 +1,69 @@
 round,time_s,killer,killer_side,victim,victim_side,seen
-0,32.03,Derke,left,luk xo,right,5
+0,32.03,Derke,left,luk xo,right,4
 0,43.04,PROFEK,left,DaviH,right,4
 0,44.04,PROFEK,left,Erde,right,5
-0,47.05,PROFEK,left,tkzin,right,3
-0,48.05,Darker,right,PROFEK,left,4
+0,47.05,PROFEK,left,tkzin,right,4
+0,48.05,Darker,right,PROFEK,left,5
 0,62.06,Chronicle,left,Darker,right,2
 1,126.63,Jamppi,left,Darker,right,5
 1,126.63,Jamppi,left,tkzin,right,5
 1,127.63,Jamppi,left,Erde,right,5
 1,131.63,Jamppi,left,luk xo,right,2
 2,183.18,Erde,right,Chronicle,left,5
-2,195.19,luk xo,right,Derke,left,3
+2,197.2,luk xo,right,Derke,left,3
 2,198.2,PROFEK,left,tkzin,right,5
-2,222.22,DaviH,right,Jamppi,left,2
+2,220.22,Erde,right,Jamppi,left,6
 2,223.22,luk xo,right,PROFEK,left,2
 2,225.22,luk xo,right,Sayonara,left,1
-3,277.78,,,Erde,right,2
+3,276.78,Chronicle,left,Erde,right,4
+3,280.78,Darker,right,PROFEK,left,5
 3,280.78,Jamppi,left,tkzin,right,3
 3,280.78,Chronicle,left,Darker,right,5
-3,281.78,Darker,right,PROFEK,left,3
-3,283.78,Chronicle,left,DaviH,right,3
-3,342.84,luk xo,right,Derke,left,1
-4,500.25,Erde,right,Derke,left,5
-4,502.25,PROFEK,left,tkzin,right,4
-4,503.25,Sayonara,left,Erde,right,5
-4,503.25,,,Darker,right,4
+3,283.78,Chronicle,left,DaviH,right,5
+3,338.84,luk xo,right,Derke,left,2
+4,500.25,Erde,right,Derke,left,3
+4,502.25,PROFEK,left,tkzin,right,5
+4,502.25,Sayonara,left,Erde,right,6
+4,503.25,Sayonara,left,Darker,right,5
 5,623.12,luk xo,right,PROFEK,left,5
 5,629.13,Derke,left,tkzin,right,5
-5,630.13,Derke,left,luk xo,right,5
+5,630.13,Derke,left,luk xo,right,4
 5,652.15,Jamppi,left,Erde,right,4
 5,659.16,DaviH,right,Chronicle,left,2
-5,676.18,DaviH,right,Jamppi,left,3
+5,676.18,DaviH,right,Jamppi,left,4
 5,687.19,Sayonara,left,DaviH,right,4
 5,690.19,Sayonara,left,Darker,right,1
-6,773.77,tkzin,right,Chronicle,left,2
-6,777.78,tkzin,right,PROFEK,left,3
-6,785.78,tkzin,right,Derke,left,3
+6,774.77,tkzin,right,Chronicle,left,4
+6,776.78,tkzin,right,PROFEK,left,4
+6,787.79,tkzin,right,Derke,left,1
 6,811.81,Jamppi,left,Erde,right,5
-6,817.82,Sayonara,left,tkzin,right,2
-6,828.83,Darker,right,Jamppi,left,3
-6,832.83,luk xo,right,Sayonara,left,3
+6,817.82,Sayonara,left,tkzin,right,4
+6,827.83,Darker,right,Jamppi,left,4
+6,831.83,luk xo,right,Sayonara,left,4
 7,911.16,luk xo,right,Chronicle,left,4
-7,917.17,Jamppi,left,tkzin,right,3
+7,917.17,Jamppi,left,tkzin,right,4
 7,921.17,Jamppi,left,DaviH,right,5
 7,924.17,PROFEK,left,Darker,right,4
 7,928.18,Sayonara,left,Erde,right,3
-7,929.18,luk xo,right,Derke,left,2
-8,1009.76,luk xo,right,Derke,left,1
-8,1034.78,Chronicle,left,tkzin,right,4
-8,1036.79,Jamppi,left,DaviH,right,4
-8,1039.79,Sayonara,left,Erde,right,4
+7,929.18,luk xo,right,Derke,left,3
+7,933.18,Jamppi,left,luk xo,right,1
+8,987.74,Derke,left,tkzin,right,4
+8,1009.76,luk xo,right,Derke,left,2
+8,1036.79,Jamppi,left,DaviH,right,5
+8,1039.79,Sayonara,left,Erde,right,5
 8,1040.79,Sayonara,left,Darker,right,4
-8,1041.79,luk xo,right,Jamppi,left,2
-8,1076.83,Sayonara,left,luk xo,right,2
+8,1041.79,luk xo,right,Jamppi,left,4
+8,1076.83,Sayonara,left,luk xo,right,3
 9,1116.87,Chronicle,left,luk xo,right,5
+9,1161.16,,,Derke,left,1
 9,1162.16,Sayonara,left,Darker,right,2
 9,1164.16,Sayonara,left,DaviH,right,5
 9,1165.16,Sayonara,left,Erde,right,4
-9,1167.17,,,tkzin,right,2
-9,1168.17,tkzin,right,Sayonara,left,1
+9,1166.16,Chronicle,left,tkzin,right,3
+9,1167.17,tkzin,right,Sayonara,left,2
 10,1298.05,Derke,left,Erde,right,4
-10,1304.05,Jamppi,left,DaviH,right,4
-10,1328.58,PROFEK,left,tkzin,right,4
+10,1304.05,Jamppi,left,DaviH,right,5
+10,1327.58,PROFEK,left,tkzin,right,5
 10,1328.58,Darker,right,PROFEK,left,5
 10,1330.58,Chronicle,left,luk xo,right,4
 10,1331.58,Darker,right,Chronicle,left,4
@@ -69,89 +71,95 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 11,1396.64,tkzin,right,Chronicle,left,5
 11,1401.65,PROFEK,left,luk xo,right,2
 11,1403.65,DaviH,right,PROFEK,left,4
-11,1409.66,Sayonara,left,tkzin,right,3
-11,1410.66,Darker,right,Sayonara,left,4
-11,1413.66,Derke,left,DaviH,right,3
-11,1416.66,Darker,right,Derke,left,2
+11,1407.66,Sayonara,left,tkzin,right,4
+11,1410.66,Darker,right,Sayonara,left,5
+11,1412.66,Derke,left,DaviH,right,5
+11,1414.66,Darker,right,Derke,left,4
 11,1432.68,Erde,right,Jamppi,left,5
 12,1684.68,tkzin,right,Derke,left,4
-12,1685.68,DaviH,right,Chronicle,left,3
+12,1684.68,DaviH,right,Chronicle,left,4
 12,1685.68,Erde,right,Sayonara,left,3
 12,1685.68,DaviH,right,PROFEK,left,3
-12,1686.68,Jamppi,left,Darker,right,2
+12,1686.68,Jamppi,left,Darker,right,5
 12,1688.69,,,Jamppi,left,1
-12,1689.69,,,Erde,right,1
 13,1738.24,Derke,left,Erde,right,3
 13,1778.28,luk xo,right,Chronicle,left,5
-13,1780.28,DaviH,right,Jamppi,left,1
-13,1780.28,DaviH,right,Sayonara,left,4
-13,1781.28,Darker,right,Derke,left,4
+13,1778.28,DaviH,right,Jamppi,left,5
+13,1780.28,DaviH,right,Sayonara,left,5
 13,1781.28,luk xo,right,PROFEK,left,5
+13,1793.29,Darker,right,Derke,left,3
 14,1838.59,Chronicle,left,luk xo,right,2
-14,1843.59,Chronicle,left,Erde,right,1
-14,1873.62,,,Derke,left,4
-14,1879.63,PROFEK,left,tkzin,right,1
-14,1900.65,Jamppi,left,Darker,right,1
+14,1843.59,Chronicle,left,Erde,right,2
+14,1873.62,tkzin,right,Derke,left,5
+14,1877.63,PROFEK,left,tkzin,right,2
+14,1898.65,Jamppi,left,Darker,right,3
+14,1899.65,Sayonara,left,DaviH,right,2
 15,2020.02,Darker,right,Sayonara,left,5
-15,2023.02,tkzin,right,Derke,left,5
-15,2028.03,Jamppi,left,Darker,right,4
-15,2031.03,Erde,right,Jamppi,left,3
-15,2032.03,Chronicle,left,DaviH,right,3
-15,2032.03,PROFEK,left,luk xo,right,3
+15,2023.02,tkzin,right,Derke,left,7
+15,2028.03,Jamppi,left,Darker,right,3
+15,2029.03,Erde,right,Jamppi,left,5
+15,2031.03,Chronicle,left,DaviH,right,4
+15,2032.03,PROFEK,left,luk xo,right,5
 15,2037.04,Erde,right,PROFEK,left,5
 15,2043.04,tkzin,right,Chronicle,left,1
-16,2197.2,DaviH,right,Jamppi,left,4
-16,2200.2,Derke,left,Darker,right,1
-16,2202.2,tkzin,right,Derke,left,4
+16,2196.19,Derke,left,Darker,right,2
+16,2197.2,DaviH,right,Jamppi,left,3
+16,2201.2,tkzin,right,Derke,left,5
 16,2204.2,Erde,right,Chronicle,left,5
 16,2207.2,DaviH,right,Sayonara,left,5
-16,2213.21,PROFEK,left,tkzin,right,3
-16,2237.24,Jamppi,left,luk xo,right,3
+16,2213.21,Jamppi,left,Erde,right,2
+16,2214.21,PROFEK,left,tkzin,right,3
+16,2237.24,Jamppi,left,luk xo,right,4
 16,2250.25,DaviH,right,PROFEK,left,3
 17,2360.11,Erde,right,Jamppi,left,5
 17,2401.15,Sayonara,left,tkzin,right,4
-17,2401.15,PROFEK,left,Darker,right,4
+17,2401.15,PROFEK,left,Darker,right,5
 17,2402.15,Erde,right,PROFEK,left,4
 17,2403.15,DaviH,right,Chronicle,left,5
-17,2403.15,Derke,left,luk xo,right,3
-17,2405.15,,,Derke,left,1
-17,2408.16,DaviH,right,Sayonara,left,3
+17,2403.15,Derke,left,luk xo,right,5
+17,2405.15,,,Erde,right,2
+17,2408.16,DaviH,right,Sayonara,left,4
+17,2411.16,,,Derke,left,1
+18,2473.97,Chronicle,left,tkzin,right,5
 18,2480.98,Darker,right,Chronicle,left,3
-18,2490.99,Darker,right,Jamppi,left,4
+18,2489.99,Darker,right,Jamppi,left,5
 18,2492.99,Erde,right,Sayonara,left,5
 18,2506.0,Erde,right,PROFEK,left,6
+18,2512.01,Derke,left,Erde,right,1
 18,2512.01,Darker,right,Derke,left,3
-19,2567.32,tkzin,right,Jamppi,left,2
+19,2567.32,tkzin,right,Jamppi,left,5
 19,2573.32,Chronicle,left,luk xo,right,3
+19,2577.32,Chronicle,left,DaviH,right,2
 19,2579.33,Darker,right,Sayonara,left,5
 19,2580.33,Darker,right,Chronicle,left,2
 19,2599.35,Erde,right,PROFEK,left,5
 19,2602.35,Erde,right,Derke,left,4
+20,2770.77,Derke,left,Erde,right,1
 20,2775.77,Darker,right,Derke,left,4
-20,2780.78,Darker,right,Jamppi,left,4
+20,2781.78,Darker,right,Jamppi,left,4
 20,2784.78,Chronicle,left,Darker,right,4
 20,2813.81,PROFEK,left,tkzin,right,1
-20,2818.82,luk xo,right,Sayonara,left,3
-20,2820.82,Chronicle,left,luk xo,right,2
+20,2816.81,luk xo,right,Sayonara,left,5
+20,2820.82,Chronicle,left,luk xo,right,4
 20,2821.82,DaviH,right,Chronicle,left,5
-20,2823.82,Chronicle,left,Erde,right,1
-20,2825.82,PROFEK,left,DaviH,right,2
+20,2824.82,PROFEK,left,DaviH,right,4
 21,2871.62,luk xo,right,Derke,left,5
 21,2909.66,Erde,right,Chronicle,left,5
-21,2913.66,luk xo,right,Jamppi,left,4
+21,2912.66,luk xo,right,Jamppi,left,5
 21,2940.69,luk xo,right,PROFEK,left,5
 21,2941.69,Sayonara,left,DaviH,right,2
-21,2942.69,Jamppi,left,luk xo,right,3
+21,2943.69,Jamppi,left,luk xo,right,2
 21,2951.7,Erde,right,Sayonara,left,4
 22,3021.27,tkzin,right,Jamppi,left,5
 22,3024.27,Chronicle,left,luk xo,right,3
 22,3025.27,DaviH,right,Chronicle,left,5
-22,3026.27,Darker,right,Derke,left,4
-22,3033.28,Darker,right,PROFEK,left,3
+22,3026.27,Darker,right,Derke,left,5
+22,3032.28,Darker,right,PROFEK,left,4
 22,3033.28,tkzin,right,Sayonara,left,3
 23,3086.33,tkzin,right,Derke,left,1
+23,3147.39,Sayonara,left,tkzin,right,1
+23,3147.39,Jamppi,left,DaviH,right,3
 23,3149.4,Erde,right,Chronicle,left,3
-23,3150.4,Jamppi,left,DaviH,right,1
 23,3150.4,Erde,right,Jamppi,left,2
 23,3150.4,Erde,right,Sayonara,left,2
 23,3152.4,PROFEK,left,Erde,right,1
