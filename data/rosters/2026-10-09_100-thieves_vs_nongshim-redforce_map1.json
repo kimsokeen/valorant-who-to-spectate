@@ -102,5 +102,67 @@
         "right": "100T"
       }
     }
+  },
+  "agents": {
+    "Dambi": {
+      "agent": "Neon",
+      "votes": 11,
+      "of": 11,
+      "score": 0.88
+    },
+    "Xross": {
+      "agent": "Fade",
+      "votes": 10,
+      "of": 10,
+      "score": 0.95
+    },
+    "Rb": {
+      "agent": "Harbor",
+      "votes": 8,
+      "of": 8,
+      "score": 0.91
+    },
+    "Francis": {
+      "agent": "Chamber",
+      "votes": 9,
+      "of": 9,
+      "score": 0.94
+    },
+    "Ivy": {
+      "agent": "Sage",
+      "votes": 4,
+      "of": 4,
+      "score": 0.97
+    },
+    "Cryo": {
+      "agent": "Chamber",
+      "votes": 7,
+      "of": 7,
+      "score": 0.94
+    },
+    "bang": {
+      "agent": "Harbor",
+      "votes": 7,
+      "of": 7,
+      "score": 0.9
+    },
+    "Vora": {
+      "agent": "Fade",
+      "votes": 7,
+      "of": 7,
+      "score": 0.95
+    },
+    "Asuna": {
+      "agent": "Sage",
+      "votes": 7,
+      "of": 7,
+      "score": 0.97
+    },
+    "Timotino": {
+      "agent": "Neon",
+      "votes": 9,
+      "of": 9,
+      "score": 0.88
+    }
   }
 }

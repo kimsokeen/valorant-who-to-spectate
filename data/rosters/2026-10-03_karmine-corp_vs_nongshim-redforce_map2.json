@@ -102,5 +102,67 @@
         "right": ""
       }
     }
+  },
+  "agents": {
+    "N4RRATE": {
+      "agent": "Chamber",
+      "votes": 8,
+      "of": 8,
+      "score": 0.94
+    },
+    "SUYGETSU": {
+      "agent": "Viper",
+      "votes": 9,
+      "of": 9,
+      "score": 0.95
+    },
+    "avez": {
+      "agent": "Fade",
+      "votes": 13,
+      "of": 13,
+      "score": 0.96
+    },
+    "LewN": {
+      "agent": "Neon",
+      "votes": 8,
+      "of": 8,
+      "score": 0.89
+    },
+    "dos9": {
+      "agent": "Omen",
+      "votes": 9,
+      "of": 9,
+      "score": 0.94
+    },
+    "Dambi": {
+      "agent": "Neon",
+      "votes": 10,
+      "of": 10,
+      "score": 0.89
+    },
+    "Xross": {
+      "agent": "Fade",
+      "votes": 6,
+      "of": 6,
+      "score": 0.95
+    },
+    "Rb": {
+      "agent": "Harbor",
+      "votes": 7,
+      "of": 7,
+      "score": 0.9
+    },
+    "Francis": {
+      "agent": "Chamber",
+      "votes": 8,
+      "of": 8,
+      "score": 0.94
+    },
+    "Ivy": {
+      "agent": "Sage",
+      "votes": 4,
+      "of": 4,
+      "score": 0.97
+    }
   }
 }

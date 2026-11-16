@@ -102,5 +102,67 @@
         "right": "N"
       }
     }
+  },
+  "agents": {
+    "Cryo": {
+      "agent": "Chamber",
+      "votes": 5,
+      "of": 5,
+      "score": 0.94
+    },
+    "bang": {
+      "agent": "Harbor",
+      "votes": 5,
+      "of": 5,
+      "score": 0.9
+    },
+    "Vora": {
+      "agent": "Fade",
+      "votes": 7,
+      "of": 7,
+      "score": 0.95
+    },
+    "Asuna": {
+      "agent": "Sage",
+      "votes": 5,
+      "of": 5,
+      "score": 0.97
+    },
+    "Timotino": {
+      "agent": "Neon",
+      "votes": 10,
+      "of": 10,
+      "score": 0.88
+    },
+    "Meteor": {
+      "agent": "Chamber",
+      "votes": 7,
+      "of": 7,
+      "score": 0.94
+    },
+    "iZu": {
+      "agent": "Fade",
+      "votes": 8,
+      "of": 8,
+      "score": 0.95
+    },
+    "stax": {
+      "agent": "Omen",
+      "votes": 14,
+      "of": 14,
+      "score": 0.94
+    },
+    "Munchkin": {
+      "agent": "Sage",
+      "votes": 10,
+      "of": 10,
+      "score": 0.97
+    },
+    "BuZz": {
+      "agent": "Neon",
+      "votes": 14,
+      "of": 14,
+      "score": 0.89
+    }
   }
 }

@@ -102,5 +102,67 @@
         "right": ""
       }
     }
+  },
+  "agents": {
+    "Chronicle": {
+      "agent": "Neon",
+      "votes": 13,
+      "of": 13,
+      "score": 0.86
+    },
+    "Derke": {
+      "agent": "Chamber",
+      "votes": 8,
+      "of": 8,
+      "score": 0.88
+    },
+    "Jamppi": {
+      "agent": "Phoenix",
+      "votes": 12,
+      "of": 12,
+      "score": 0.89
+    },
+    "Sayonara": {
+      "agent": "Fade",
+      "votes": 7,
+      "of": 7,
+      "score": 0.92
+    },
+    "PROFEK": {
+      "agent": "Harbor",
+      "votes": 12,
+      "of": 12,
+      "score": 0.89
+    },
+    "Cryo": {
+      "agent": "Chamber",
+      "votes": 8,
+      "of": 10,
+      "score": 0.87
+    },
+    "bang": {
+      "agent": "Harbor",
+      "votes": 9,
+      "of": 9,
+      "score": 0.88
+    },
+    "Vora": {
+      "agent": "Fade",
+      "votes": 12,
+      "of": 12,
+      "score": 0.92
+    },
+    "Asuna": {
+      "agent": "Sage",
+      "votes": 9,
+      "of": 9,
+      "score": 0.95
+    },
+    "Timotino": {
+      "agent": "Neon",
+      "votes": 17,
+      "of": 17,
+      "score": 0.86
+    }
   }
 }

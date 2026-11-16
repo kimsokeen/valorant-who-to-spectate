@@ -102,5 +102,67 @@
         "right": "LOUD"
       }
     }
+  },
+  "agents": {
+    "Chronicle": {
+      "agent": "Neon",
+      "votes": 10,
+      "of": 10,
+      "score": 0.86
+    },
+    "Derke": {
+      "agent": "Chamber",
+      "votes": 9,
+      "of": 9,
+      "score": 0.88
+    },
+    "Jamppi": {
+      "agent": "Phoenix",
+      "votes": 6,
+      "of": 6,
+      "score": 0.91
+    },
+    "Sayonara": {
+      "agent": "Fade",
+      "votes": 9,
+      "of": 9,
+      "score": 0.93
+    },
+    "PROFEK": {
+      "agent": "Harbor",
+      "votes": 5,
+      "of": 5,
+      "score": 0.89
+    },
+    "Darker": {
+      "agent": "Omen",
+      "votes": 11,
+      "of": 11,
+      "score": 0.93
+    },
+    "luk xo": {
+      "agent": "Chamber",
+      "votes": 8,
+      "of": 8,
+      "score": 0.88
+    },
+    "Erde": {
+      "agent": "Sage",
+      "votes": 9,
+      "of": 9,
+      "score": 0.95
+    },
+    "tkzin": {
+      "agent": "Neon",
+      "votes": 11,
+      "of": 11,
+      "score": 0.87
+    },
+    "DaviH": {
+      "agent": "Fade",
+      "votes": 9,
+      "of": 9,
+      "score": 0.91
+    }
   }
 }

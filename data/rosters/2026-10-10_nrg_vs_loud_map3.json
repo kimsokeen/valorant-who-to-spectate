@@ -102,5 +102,67 @@
         "right": "LOUD"
       }
     }
+  },
+  "agents": {
+    "skuba": {
+      "agent": "Cypher",
+      "votes": 9,
+      "of": 9,
+      "score": 0.96
+    },
+    "brawk": {
+      "agent": "Sova",
+      "votes": 8,
+      "of": 8,
+      "score": 0.94
+    },
+    "Ethan": {
+      "agent": "KAY-O",
+      "votes": 10,
+      "of": 10,
+      "score": 0.93
+    },
+    "keiko": {
+      "agent": "Brimstone",
+      "votes": 2,
+      "of": 3,
+      "score": 0.93
+    },
+    "mada": {
+      "agent": "Neon",
+      "votes": 8,
+      "of": 8,
+      "score": 0.88
+    },
+    "Darker": {
+      "agent": "Omen",
+      "votes": 7,
+      "of": 7,
+      "score": 0.95
+    },
+    "luk xo": {
+      "agent": "Chamber",
+      "votes": 4,
+      "of": 4,
+      "score": 0.93
+    },
+    "Erde": {
+      "agent": "Sage",
+      "votes": 2,
+      "of": 2,
+      "score": 0.96
+    },
+    "tkzin": {
+      "agent": "Neon",
+      "votes": 7,
+      "of": 7,
+      "score": 0.89
+    },
+    "DaviH": {
+      "agent": "Fade",
+      "votes": 5,
+      "of": 5,
+      "score": 0.95
+    }
   }
 }

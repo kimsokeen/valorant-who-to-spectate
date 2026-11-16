@@ -102,5 +102,73 @@
         "right": "TH"
       }
     }
+  },
+  "agents": {
+    "kamo": {
+      "agent": "Raze",
+      "votes": 4,
+      "of": 4,
+      "score": 0.93
+    },
+    "GSR": {
+      "agent": "Yoru",
+      "votes": 11,
+      "of": 11,
+      "score": 0.92
+    },
+    "nAts": {
+      "agent": "Vyse",
+      "votes": 9,
+      "of": 9,
+      "score": 0.95
+    },
+    "Kicks": {
+      "agent": "Harbor",
+      "votes": 8,
+      "of": 8,
+      "score": 0.9
+    },
+    "trex": {
+      "agent": "Fade",
+      "votes": 6,
+      "of": 6,
+      "score": 0.95
+    },
+    "Scales": {
+      "agent": "Cypher",
+      "votes": 6,
+      "of": 6,
+      "score": 0.96
+    },
+    "Splash": {
+      "agent": "Phoenix",
+      "votes": 13,
+      "of": 13,
+      "score": 0.93
+    },
+    "SiufatBB": {
+      "agent": "Fade",
+      "votes": 6,
+      "of": 6,
+      "score": 0.94
+    },
+    "Erv": {
+      "agent": "Omen",
+      "votes": 9,
+      "of": 10,
+      "score": 0.94
+    },
+    "slowly": {
+      "agent": "Waylay",
+      "votes": 8,
+      "of": 8,
+      "score": 0.94
+    },
+    "trexx": {
+      "agent": null,
+      "votes": 0,
+      "of": 0,
+      "score": 0.0
+    }
   }
 }

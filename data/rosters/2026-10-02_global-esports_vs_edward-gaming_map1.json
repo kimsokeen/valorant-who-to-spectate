@@ -102,5 +102,67 @@
         "right": "GE"
       }
     }
+  },
+  "agents": {
+    "CHICHOO": {
+      "agent": "Sage",
+      "votes": 8,
+      "of": 8,
+      "score": 0.97
+    },
+    "ZmijkK": {
+      "agent": "Neon",
+      "votes": 7,
+      "of": 7,
+      "score": 0.89
+    },
+    "Stew": {
+      "agent": "Yoru",
+      "votes": 12,
+      "of": 12,
+      "score": 0.93
+    },
+    "nobody": {
+      "agent": "Fade",
+      "votes": 12,
+      "of": 12,
+      "score": 0.95
+    },
+    "Smoggy": {
+      "agent": "Omen",
+      "votes": 10,
+      "of": 10,
+      "score": 0.94
+    },
+    "PatMen": {
+      "agent": "Astra",
+      "votes": 8,
+      "of": 8,
+      "score": 0.84
+    },
+    "Kristal": {
+      "agent": "Fade",
+      "votes": 6,
+      "of": 6,
+      "score": 0.95
+    },
+    "Xavi8k": {
+      "agent": "Sage",
+      "votes": 6,
+      "of": 6,
+      "score": 0.97
+    },
+    "UdoTan": {
+      "agent": "Neon",
+      "votes": 10,
+      "of": 10,
+      "score": 0.88
+    },
+    "autumn": {
+      "agent": "Chamber",
+      "votes": 9,
+      "of": 9,
+      "score": 0.94
+    }
   }
 }

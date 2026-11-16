@@ -102,5 +102,73 @@
         "right": "I"
       }
     }
+  },
+  "agents": {
+    "Darker": {
+      "agent": "Omen",
+      "votes": 9,
+      "of": 9,
+      "score": 0.94
+    },
+    "luk xo": {
+      "agent": "Chamber",
+      "votes": 3,
+      "of": 3,
+      "score": 0.94
+    },
+    "Erde": {
+      "agent": "Sage",
+      "votes": 3,
+      "of": 3,
+      "score": 0.97
+    },
+    "tkzin": {
+      "agent": "Neon",
+      "votes": 6,
+      "of": 6,
+      "score": 0.89
+    },
+    "DaviH": {
+      "agent": "Fade",
+      "votes": 3,
+      "of": 3,
+      "score": 0.95
+    },
+    "CHICHOO": {
+      "agent": "Cypher",
+      "votes": 10,
+      "of": 10,
+      "score": 0.96
+    },
+    "ZmijKK": {
+      "agent": "Waylay",
+      "votes": 9,
+      "of": 9,
+      "score": 0.94
+    },
+    "Stew": {
+      "agent": "Breach",
+      "votes": 6,
+      "of": 6,
+      "score": 0.95
+    },
+    "nobody": {
+      "agent": "Tejo",
+      "votes": 6,
+      "of": 6,
+      "score": 0.94
+    },
+    "Smoggy": {
+      "agent": "Omen",
+      "votes": 11,
+      "of": 11,
+      "score": 0.95
+    },
+    "07 o PI": {
+      "agent": null,
+      "votes": 0,
+      "of": 0,
+      "score": 0.0
+    }
   }
 }

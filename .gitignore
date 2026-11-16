@@ -9,6 +9,9 @@ crops/
 *.part
 *.ytdl
 
+# Agent icons from valorant-api.com (Riot's art); scripts/get_agent_icons.py downloads them
+configs/agents/
+
 # Python
 __pycache__/
 *.pyc

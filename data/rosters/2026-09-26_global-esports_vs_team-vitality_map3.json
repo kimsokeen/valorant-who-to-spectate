@@ -102,5 +102,67 @@
         "right": "VT"
       }
     }
+  },
+  "agents": {
+    "PatMen": {
+      "agent": "Skye",
+      "votes": 5,
+      "of": 5,
+      "score": 0.96
+    },
+    "Kristal": {
+      "agent": "Tejo",
+      "votes": 12,
+      "of": 12,
+      "score": 0.94
+    },
+    "Xavi8k": {
+      "agent": "Astra",
+      "votes": 4,
+      "of": 4,
+      "score": 0.84
+    },
+    "UdoTan": {
+      "agent": "Raze",
+      "votes": 6,
+      "of": 6,
+      "score": 0.92
+    },
+    "autumn": {
+      "agent": "Veto",
+      "votes": 10,
+      "of": 10,
+      "score": 0.89
+    },
+    "Chronicle": {
+      "agent": "Neon",
+      "votes": 14,
+      "of": 14,
+      "score": 0.88
+    },
+    "Derke": {
+      "agent": "Chamber",
+      "votes": 13,
+      "of": 13,
+      "score": 0.93
+    },
+    "Jamppi": {
+      "agent": "Phoenix",
+      "votes": 12,
+      "of": 12,
+      "score": 0.92
+    },
+    "Sayonara": {
+      "agent": "Sova",
+      "votes": 13,
+      "of": 13,
+      "score": 0.94
+    },
+    "PROFEK": {
+      "agent": "Harbor",
+      "votes": 12,
+      "of": 12,
+      "score": 0.9
+    }
   }
 }
