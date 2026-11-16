@@ -8,7 +8,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 1,126.63,Jamppi,left,Darker,right,5
 1,126.63,Jamppi,left,tkzin,right,5
 1,127.63,Jamppi,left,Erde,right,5
-1,131.63,,,luk xo,right,2
+1,131.63,Jamppi,left,luk xo,right,2
 2,183.18,Erde,right,Chronicle,left,5
 2,195.19,luk xo,right,Derke,left,3
 2,198.2,PROFEK,left,tkzin,right,5
@@ -21,10 +21,10 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 3,281.78,Darker,right,PROFEK,left,3
 3,283.78,Chronicle,left,DaviH,right,3
 3,342.84,luk xo,right,Derke,left,1
-4,500.25,Erde,right,Derke,left,4
+4,500.25,Erde,right,Derke,left,5
 4,502.25,PROFEK,left,tkzin,right,4
 4,503.25,Sayonara,left,Erde,right,5
-4,503.25,Sayonara,left,Darker,right,5
+4,503.25,,,Darker,right,4
 5,623.12,luk xo,right,PROFEK,left,5
 5,629.13,Derke,left,tkzin,right,5
 5,630.13,Derke,left,luk xo,right,5
@@ -43,10 +43,9 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 7,911.16,luk xo,right,Chronicle,left,4
 7,917.17,Jamppi,left,tkzin,right,3
 7,921.17,Jamppi,left,DaviH,right,5
-7,924.17,PROFEK,left,Darker,right,5
+7,924.17,PROFEK,left,Darker,right,4
 7,928.18,Sayonara,left,Erde,right,3
-7,929.18,luk xo,right,Derke,left,1
-8,988.74,Derke,left,tkzin,right,3
+7,929.18,luk xo,right,Derke,left,2
 8,1009.76,luk xo,right,Derke,left,1
 8,1034.78,Chronicle,left,tkzin,right,4
 8,1036.79,Jamppi,left,DaviH,right,4
@@ -78,15 +77,16 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 12,1684.68,tkzin,right,Derke,left,4
 12,1685.68,DaviH,right,Chronicle,left,3
 12,1685.68,Erde,right,Sayonara,left,3
-12,1685.68,,,PROFEK,left,3
+12,1685.68,DaviH,right,PROFEK,left,3
 12,1686.68,Jamppi,left,Darker,right,2
 12,1688.69,,,Jamppi,left,1
+12,1689.69,,,Erde,right,1
 13,1738.24,Derke,left,Erde,right,3
 13,1778.28,luk xo,right,Chronicle,left,5
 13,1780.28,DaviH,right,Jamppi,left,1
 13,1780.28,DaviH,right,Sayonara,left,4
+13,1781.28,Darker,right,Derke,left,4
 13,1781.28,luk xo,right,PROFEK,left,5
-13,1793.29,Darker,right,Derke,left,3
 14,1838.59,Chronicle,left,luk xo,right,2
 14,1843.59,Chronicle,left,Erde,right,1
 14,1873.62,,,Derke,left,4
@@ -99,22 +99,22 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 15,2032.03,Chronicle,left,DaviH,right,3
 15,2032.03,PROFEK,left,luk xo,right,3
 15,2037.04,Erde,right,PROFEK,left,5
-15,2043.04,,,Chronicle,left,1
+15,2043.04,tkzin,right,Chronicle,left,1
 16,2197.2,DaviH,right,Jamppi,left,4
 16,2200.2,Derke,left,Darker,right,1
-16,2202.2,,,Derke,left,4
+16,2202.2,tkzin,right,Derke,left,4
 16,2204.2,Erde,right,Chronicle,left,5
 16,2207.2,DaviH,right,Sayonara,left,5
 16,2213.21,PROFEK,left,tkzin,right,3
-16,2237.24,,,luk xo,right,3
-16,2250.25,,,PROFEK,left,3
-16,2259.26,,,Jamppi,left,2
+16,2237.24,Jamppi,left,luk xo,right,3
+16,2250.25,DaviH,right,PROFEK,left,3
 17,2360.11,Erde,right,Jamppi,left,5
 17,2401.15,Sayonara,left,tkzin,right,4
-17,2401.15,PROFEK,left,Darker,right,5
+17,2401.15,PROFEK,left,Darker,right,4
 17,2402.15,Erde,right,PROFEK,left,4
 17,2403.15,DaviH,right,Chronicle,left,5
 17,2403.15,Derke,left,luk xo,right,3
+17,2405.15,,,Derke,left,1
 17,2408.16,DaviH,right,Sayonara,left,3
 18,2480.98,Darker,right,Chronicle,left,3
 18,2490.99,Darker,right,Jamppi,left,4
@@ -135,15 +135,14 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 20,2820.82,Chronicle,left,luk xo,right,2
 20,2821.82,DaviH,right,Chronicle,left,5
 20,2823.82,Chronicle,left,Erde,right,1
-20,2827.82,PROFEK,left,DaviH,right,1
+20,2825.82,PROFEK,left,DaviH,right,2
 21,2871.62,luk xo,right,Derke,left,5
 21,2909.66,Erde,right,Chronicle,left,5
 21,2913.66,luk xo,right,Jamppi,left,4
 21,2940.69,luk xo,right,PROFEK,left,5
 21,2941.69,Sayonara,left,DaviH,right,2
-21,2943.69,Jamppi,left,luk xo,right,2
+21,2942.69,Jamppi,left,luk xo,right,3
 21,2951.7,Erde,right,Sayonara,left,4
-21,2952.7,,,Jamppi,left,2
 22,3021.27,tkzin,right,Jamppi,left,5
 22,3024.27,Chronicle,left,luk xo,right,3
 22,3025.27,DaviH,right,Chronicle,left,5
@@ -152,7 +151,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 22,3033.28,tkzin,right,Sayonara,left,3
 23,3086.33,tkzin,right,Derke,left,1
 23,3149.4,Erde,right,Chronicle,left,3
-23,3150.4,,,DaviH,right,1
+23,3150.4,Jamppi,left,DaviH,right,1
 23,3150.4,Erde,right,Jamppi,left,2
 23,3150.4,Erde,right,Sayonara,left,2
 23,3152.4,PROFEK,left,Erde,right,1

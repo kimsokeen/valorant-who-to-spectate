@@ -74,3 +74,18 @@ def test_drops_a_misread_second_death():
     res = {"kills": kills}
     assert drop_duplicate_deaths(res) == 1
     assert [(k["round"], k["killer"]) for k in res["kills"]] == [(2, "PROFEK"), (3, "Derke")]
+
+
+PRX_T1 = {"Meteor": "left", "iZu": "left", "stax": "left", "Munchkin": "left", "BuZz": "left",
+          "fOrsakeN": "right", "something": "right", "d4v41": "right", "Jinggg": "right", "invy": "right"}
+
+
+def test_lookalike_characters_in_names():
+    # real OCR readings of "d4v41" and "Meteor" from the T1 vs Paper Rex VOD
+    assert match_pair("4) PRX dével WP tS", "TV Zu a -", PRX_T1) == ("d4v41", "iZu")
+    assert match_pair("~~) PRX d4val DPE ZS", "71 Mateor et", PRX_T1) == ("d4v41", "Meteor")
+
+
+def test_exact_match_beats_lookalike():
+    assert match_pair("VIT Jamppi", "LOUD Darker", ROSTER) == ("Jamppi", "Darker")
+    assert match_pair("LOUD luk xo", "VIT Derke", ROSTER) == ("luk xo", "Derke")

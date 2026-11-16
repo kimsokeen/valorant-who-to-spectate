@@ -18,10 +18,9 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 3,408.66,Ethan,right,N4RRATE,left,5
 3,416.67,avez,left,keiko,right,5
 3,420.67,avez,left,Ethan,right,5
-3,422.67,,,skuba,right,5
+3,422.67,LewN,left,skuba,right,5
 4,471.72,LewN,left,mada,right,4
 4,473.72,Ethan,right,LewN,left,4
-4,507.76,,,mada,right,1
 4,508.76,avez,left,skuba,right,5
 4,509.76,skuba,right,dos9,left,2
 4,511.76,keiko,right,N4RRATE,left,4
@@ -41,7 +40,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 6,685.93,brawk,right,avez,left,2
 6,686.94,LewN,left,skuba,right,5
 6,688.94,dos9,left,Ethan,right,2
-6,690.94,keiko,right,LewN,left,1
+6,689.94,keiko,right,LewN,left,3
 6,693.94,dos9,left,brawk,right,4
 6,696.95,N4RRATE,left,keiko,right,4
 6,697.95,mada,right,dos9,left,2
@@ -100,8 +99,8 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 14,1818.07,keiko,right,SUYGETSU,left,4
 14,1823.07,Ethan,right,dos9,left,5
 14,1825.07,avez,left,Ethan,right,3
-14,1825.07,,,avez,left,2
-14,1826.07,LewN,left,mada,right,3
+14,1825.07,mada,right,avez,left,2
+14,1826.07,LewN,left,mada,right,4
 15,1871.12,SUYGETSU,left,mada,right,5
 15,1874.12,brawk,right,SUYGETSU,left,5
 15,1880.13,avez,left,Ethan,right,5
@@ -112,11 +111,12 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 15,1918.17,keiko,right,dos9,left,4
 16,1997.75,LewN,left,mada,right,5
 16,1998.75,LewN,left,Ethan,right,4
+16,1999.75,,,LewN,left,1
 16,2043.79,LewN,left,skuba,right,4
 16,2048.8,N4RRATE,left,brawk,right,4
 17,2138.39,keiko,right,N4RRATE,left,4
 17,2144.39,Ethan,right,LewN,left,3
-17,2146.39,avez,left,mada,right,3
+17,2146.39,avez,left,mada,right,4
 17,2153.4,brawk,right,SUYGETSU,left,2
 17,2166.41,skuba,right,dos9,left,4
 17,2170.42,avez,left,skuba,right,4
@@ -141,7 +141,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 21,2787.03,avez,left,mada,right,5
 21,2809.06,skuba,right,N4RRATE,left,4
 21,2813.06,brawk,right,avez,left,4
-21,2815.06,,,brawk,right,3
+21,2815.06,dos9,left,brawk,right,3
 21,2849.1,dos9,left,Ethan,right,4
 21,2856.1,skuba,right,SUYGETSU,left,5
 21,2862.11,dos9,left,skuba,right,3

@@ -26,19 +26,20 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 2,284.28,Erde,right,Jamppi,left,3
 3,373.62,Sayonara,left,tkzin,right,3
 3,373.62,Sayonara,left,Erde,right,5
-3,374.62,Sayonara,left,Darker,right,5
+3,374.62,Sayonara,left,Darker,right,4
+3,377.63,Erde,right,Derke,left,1
 3,420.67,Derke,left,DaviH,right,3
 4,464.46,Derke,left,luk xo,right,3
 4,473.47,Erde,right,Chronicle,left,1
 4,478.48,Sayonara,left,DaviH,right,9
+4,484.48,tkzin,right,Derke,left,2
 4,484.48,Erde,right,Jamppi,left,5
-4,485.49,,,Derke,left,1
 4,540.54,Jamppi,left,Darker,right,5
 4,560.56,Sayonara,left,tkzin,right,3
 4,564.56,PROFEK,left,Erde,right,4
 5,691.94,Jamppi,left,Erde,right,4
 5,692.94,Jamppi,left,Darker,right,5
-5,701.95,,,Chronicle,left,4
+5,701.95,tkzin,right,Chronicle,left,4
 5,701.95,Jamppi,left,tkzin,right,4
 5,771.02,DaviH,right,Jamppi,left,5
 6,1131.63,Derke,left,DaviH,right,5
@@ -91,8 +92,8 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 12,1992.74,luk xo,right,Jamppi,left,3
 12,1992.74,tkzin,right,Chronicle,left,5
 12,2012.76,Derke,left,luk xo,right,1
-12,2012.76,Derke,left,Darker,right,6
-12,2016.77,Erde,right,Derke,left,4
+12,2012.76,Derke,left,Darker,right,5
+12,2015.76,Erde,right,Derke,left,5
 12,2026.78,Erde,right,Sayonara,left,5
 12,2027.78,Erde,right,PROFEK,left,5
 13,2068.32,Darker,right,Chronicle,left,5
@@ -111,22 +112,22 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 14,2220.72,PROFEK,left,Darker,right,5
 14,2232.73,PROFEK,left,DaviH,right,4
 15,2300.55,tkzin,right,Jamppi,left,3
-15,2306.55,Chronicle,left,tkzin,right,2
+15,2303.55,Chronicle,left,tkzin,right,3
 15,2314.56,Chronicle,left,Darker,right,4
-15,2314.56,Derke,left,DaviH,right,4
+15,2314.56,Derke,left,DaviH,right,5
 15,2314.56,Erde,right,Chronicle,left,5
 15,2315.56,luk xo,right,Sayonara,left,5
 15,2319.57,luk xo,right,PROFEK,left,4
 15,2322.57,Derke,left,Erde,right,1
 15,2323.57,Derke,left,luk xo,right,1
-15,2361.61,Darker,right,Derke,left,4
+15,2360.61,Darker,right,Derke,left,5
 16,2505.5,Derke,left,Erde,right,1
-16,2550.55,luk xo,right,Chronicle,left,5
+16,2550.55,Erde,right,Chronicle,left,5
 16,2557.55,DaviH,right,Jamppi,left,3
 16,2558.56,PROFEK,left,Darker,right,5
 16,2559.56,tkzin,right,Sayonara,left,4
 16,2565.56,DaviH,right,PROFEK,left,3
-16,2567.57,,,DaviH,right,2
+16,2567.57,Derke,left,DaviH,right,3
 16,2573.57,Derke,left,tkzin,right,3
 16,2580.58,luk xo,right,Derke,left,3
 17,2682.68,luk xo,right,Jamppi,left,5
@@ -138,7 +139,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 17,2725.72,tkzin,right,Chronicle,left,4
 18,2774.27,luk xo,right,PROFEK,left,5
 18,2797.29,tkzin,right,Jamppi,left,4
-18,2802.3,,,Chronicle,left,3
+18,2802.3,Erde,right,Chronicle,left,3
 18,2802.3,,,Derke,left,3
 18,2802.3,,,Sayonara,left,3
 19,2917.41,Jamppi,left,tkzin,right,1
@@ -151,7 +152,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 19,3010.51,Jamppi,left,luk xo,right,1
 20,3119.12,Erde,right,Jamppi,left,4
 20,3125.12,Derke,left,tkzin,right,2
-20,3127.12,,,Chronicle,left,3
+20,3127.12,DaviH,right,Chronicle,left,3
 20,3131.13,DaviH,right,Sayonara,left,4
 20,3145.14,luk xo,right,Derke,left,5
 21,3205.45,luk xo,right,Chronicle,left,4
@@ -199,7 +200,8 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 27,4079.57,tkzin,right,Chronicle,left,5
 27,4085.58,DaviH,right,PROFEK,left,3
 27,4086.58,tkzin,right,Jamppi,left,3
-27,4088.58,,,Sayonara,left,5
+27,4088.58,tkzin,right,Sayonara,left,5
+27,4090.59,,,Erde,right,1
 27,4096.59,tkzin,right,Derke,left,3
 28,4175.92,,,tkzin,right,1
 28,4176.92,Chronicle,left,Erde,right,1
@@ -229,12 +231,12 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 31,4565.81,Sayonara,left,luk xo,right,3
 31,4565.81,tkzin,right,Jamppi,left,4
 32,4639.64,tkzin,right,Chronicle,left,4
-32,4642.64,Jamppi,left,Darker,right,5
+32,4642.64,Jamppi,left,Darker,right,4
 32,4645.64,tkzin,right,Jamppi,left,5
 32,4650.65,tkzin,right,PROFEK,left,4
 32,4652.65,tkzin,right,Sayonara,left,4
 32,4656.65,Derke,left,tkzin,right,5
-32,4662.66,luk xo,right,Derke,left,1
+32,4660.66,luk xo,right,Derke,left,2
 33,4744.49,tkzin,right,Derke,left,5
 33,4758.5,luk xo,right,Sayonara,left,3
 33,4763.51,Jamppi,left,luk xo,right,2

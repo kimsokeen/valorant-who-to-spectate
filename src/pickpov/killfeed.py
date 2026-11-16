@@ -38,7 +38,27 @@ SAME_DEATH_S = 15.0   # sightings of a victim further apart than this are separa
 
 # ---------- names ----------
 
+# Characters OCR confuses with each other count as the same in a second, looser
+# comparison: "d4v41" is read as "dével"/"daval", "Meteor" as "Mateor".
+_LOOKALIKE = str.maketrans({c: "a" for c in "ae43éèêëàáâä"} | {c: "l" for c in "li1|!íìï"}
+                           | {c: "o" for c in "o0óòöô"} | {c: "s" for c in "s5$"})
+
+
+def _norm(s: str) -> str:
+    return s.lower().translate(_LOOKALIKE)
+
+
 def similarity(text: str, name: str) -> float:
+    """How well `name` appears inside `text` (0..1).
+
+    The exact comparison (ignoring case) is used as is; the look-alike
+    comparison counts slightly less, so an exact match always wins a tie
+    ("Darker" vs "Derke").
+    """
+    return max(_similarity(text, name), 0.95 * _similarity(_norm(text), _norm(name)))
+
+
+def _similarity(text: str, name: str) -> float:
     """Best match of `name` anywhere inside `text` (0..1), ignoring case."""
     text, name = text.lower(), name.lower()
     if not text or not name:
@@ -131,17 +151,43 @@ def split_row(row: np.ndarray) -> tuple[np.ndarray, np.ndarray] | None:
     return row[:, killer_cols[0]:split], row[:, split:]
 
 
-def white_text(img: np.ndarray) -> np.ndarray:
-    """Keep only the white name text (and icons), as light-on-dark for ocr_line."""
-    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-    mask = ((hsv[..., 1] < 70) & (hsv[..., 2] > 185)).astype(np.uint8) * 255
+def white_text(img: np.ndarray, threshold: int = 150) -> np.ndarray:
+    """Keep the name text, as light-on-dark for ocr_line.
+
+    Text is bright in all three colour channels; teal and red bars always have
+    one dark channel. Using the darkest channel keeps the thin, colour-blended
+    edges of letters that a strict "pure white" filter loses (short names like
+    "iZu" were read as fragments).
+    """
+    mask = (img.min(axis=2) > threshold).astype(np.uint8) * 255
     return cv2.cvtColor(mask, cv2.COLOR_GRAY2BGR)
+
+
+def victim_name_area(part: np.ndarray) -> np.ndarray:
+    """Just the coloured bar holding the victim's name, without the portrait.
+
+    The agent portrait at the right end has large white patches that OCR reads
+    as letters; with a short name it outweighs the name itself.
+    """
+    hsv = cv2.cvtColor(part, cv2.COLOR_BGR2HSV)
+    bar = ((hsv[..., 1] > 60) & (hsv[..., 2] > 90)).mean(axis=0) > 0.3
+    xs = np.where(bar)[0]
+    if len(xs) < 15:
+        return part
+    end = xs[0]
+    for x in xs[1:]:
+        if x - end > 5:
+            break
+        end = x
+    return part[:, :end + 3]
 
 
 # ---------- a whole map ----------
 
 def read_map(map_dir: str | Path, regions: dict[str, Region], roster: dict[str, str],
-             max_samples: int | None = None) -> dict:
+             max_samples: int | None = None, round_of: dict[int, int] | None = None) -> dict:
+    """Read every kill on a map. With `round_of` (from rounds.detect_rounds),
+    rounds come from score changes; without it, from gaps in gameplay."""
     d = Path(map_dir)
     m = json.loads((d / "manifest.json").read_text())
     fw, fh = m["video_info"]["width"], m["video_info"]["height"]
@@ -153,14 +199,20 @@ def read_map(map_dir: str | Path, regions: dict[str, Region], roster: dict[str, 
         for r in csv.DictReader(f):
             times[int(r["sample"])] = float(r["time_s"])
     order = sorted(times)
-    round_of, rnd = {}, 0
-    spans = [[times[order[0]], times[order[0]]]] if order else []
-    for a, b in zip([None] + order[:-1], order):
-        if a is not None and times[b] - times[a] > ROUND_GAP_S:
-            rnd += 1
-            spans.append([times[b], times[b]])
-        round_of[b] = rnd
-        spans[-1][1] = times[b]
+    if round_of is None:
+        round_of, rnd = {}, 0
+        spans = [[times[order[0]], times[order[0]]]] if order else []
+        for a, b in zip([None] + order[:-1], order):
+            if a is not None and times[b] - times[a] > ROUND_GAP_S:
+                rnd += 1
+                spans.append([times[b], times[b]])
+            round_of[b] = rnd
+            spans[-1][1] = times[b]
+    else:
+        rnd = max(round_of.values())
+        spans = [[min(times[x] for x in round_of if round_of[x] == r),
+                  max(times[x] for x in round_of if round_of[x] == r)]
+                 if any(v == r for v in round_of.values()) else [0.0, 0.0] for r in range(rnd + 1)]
 
     sightings = defaultdict(list)    # (round, victim) -> [(time, killer or None)]
     unread = 0
@@ -180,13 +232,20 @@ def read_map(map_dir: str | Path, regions: dict[str, Region], roster: dict[str, 
                 continue    # one awkward row mustn't hide the rows below it
             # No caching of OCR results between rows: rows that look alike at low
             # resolution ("T1 iZu" vs "T1 stax") got each other's names.
-            victim_text = ocr_line(white_text(parts[1]))
+            victim_text = ocr_line(white_text(victim_name_area(parts[1])))
             _, guess = match_pair("", victim_text, roster)
             known = sightings.get((round_of[sample], guess), [])
             if guess and sum(1 for _, k in known if k) >= 3:
                 killer, victim = None, guess      # killer already read 3 times; save time
             else:
-                killer, victim = match_pair(ocr_line(white_text(parts[0])), victim_text, roster)
+                killer_text = ocr_line(white_text(parts[0]))
+                killer, victim = match_pair(killer_text, victim_text, roster)
+                if victim is not None and killer is None:
+                    # the white weapon icon can drown the name: read just the left part
+                    left = parts[0][:, : max(20, int(parts[0].shape[1] * 0.62))]
+                    k2, v2 = match_pair(ocr_line(white_text(left)), victim_text, roster)
+                    if v2 == victim and k2 is not None:
+                        killer = k2
             if victim is None:
                 unread += 1
                 continue

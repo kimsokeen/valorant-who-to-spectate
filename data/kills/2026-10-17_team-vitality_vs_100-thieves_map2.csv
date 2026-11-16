@@ -11,7 +11,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 1,227.23,bang,right,Sayonara,left,3
 1,230.23,Jamppi,left,Asuna,right,4
 1,231.23,Chronicle,left,bang,right,5
-1,232.23,Jamppi,left,Vora,right,3
+1,232.23,Jamppi,left,Vora,right,4
 2,278.28,,,Timotino,right,1
 2,281.28,Asuna,right,Chronicle,left,1
 2,288.29,Vora,right,PROFEK,left,3
@@ -21,8 +21,8 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 3,413.16,Sayonara,left,Cryo,right,4
 3,415.17,Vora,right,Chronicle,left,2
 3,417.17,Timotino,right,Sayonara,left,4
-3,419.17,PROFEK,left,Vora,right,2
 3,419.17,Sayonara,left,bang,right,5
+3,419.17,PROFEK,left,Vora,right,2
 3,424.17,Timotino,right,PROFEK,left,2
 4,531.78,Cryo,right,Jamppi,left,3
 4,536.79,Vora,right,Derke,left,2
@@ -40,7 +40,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 5,659.91,Asuna,right,Jamppi,left,2
 5,661.91,Sayonara,left,Asuna,right,4
 5,661.91,Vora,right,Chronicle,left,3
-5,662.91,Derke,left,Vora,right,3
+5,662.91,Derke,left,Vora,right,4
 6,757.76,Chronicle,left,Cryo,right,5
 6,757.76,Derke,left,Vora,right,4
 6,781.78,bang,right,Sayonara,left,4
@@ -73,8 +73,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 10,1241.74,Cryo,right,PROFEK,left,5
 10,1245.74,Jamppi,left,Cryo,right,5
 10,1256.76,Asuna,right,Jamppi,left,4
-10,1302.8,,,Jamppi,left,3
-10,1305.8,Vora,right,Derke,left,3
+10,1304.8,Vora,right,Derke,left,4
 10,1312.81,Sayonara,left,Vora,right,3
 10,1313.81,Sayonara,left,Asuna,right,4
 11,1375.88,Derke,left,Cryo,right,3
@@ -82,7 +81,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 11,1384.88,Jamppi,left,Asuna,right,5
 11,1386.89,bang,right,Jamppi,left,1
 11,1409.91,Chronicle,left,bang,right,5
-11,1414.91,,,Vora,right,1
+11,1414.91,Derke,left,Vora,right,1
 12,1607.86,,,Derke,left,5
 12,1650.9,Cryo,right,Sayonara,left,5
 12,1650.9,Cryo,right,Jamppi,left,3
@@ -91,12 +90,12 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 12,1672.92,Timotino,right,PROFEK,left,3
 13,1745.24,Chronicle,left,Cryo,right,2
 13,1746.24,Timotino,right,Sayonara,left,2
-13,1747.24,,,Chronicle,left,1
+13,1747.24,Timotino,right,Chronicle,left,1
 13,1751.25,Jamppi,left,Timotino,right,4
 13,1752.25,Asuna,right,Jamppi,left,3
 13,1765.26,Vora,right,Derke,left,4
 13,1787.29,bang,right,PROFEK,left,2
-14,1855.85,Derke,left,bang,right,2
+14,1853.85,Derke,left,bang,right,3
 14,1855.85,Cryo,right,Derke,left,3
 14,1880.88,Chronicle,left,Asuna,right,1
 14,1907.91,Cryo,right,PROFEK,left,3
@@ -112,13 +111,13 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 15,2045.04,Cryo,right,Derke,left,4
 15,2048.05,PROFEK,left,Cryo,right,2
 16,2097.85,Derke,left,Cryo,right,1
-16,2124.87,Derke,left,bang,right,3
+16,2124.87,Derke,left,bang,right,4
 16,2140.89,Derke,left,Asuna,right,1
 16,2154.9,Jamppi,left,Timotino,right,3
 16,2154.9,PROFEK,left,Vora,right,1
 17,2306.8,Chronicle,left,Timotino,right,4
 17,2332.83,Chronicle,left,Vora,right,4
-17,2337.84,,,Asuna,right,1
+17,2337.84,Derke,left,Asuna,right,1
 17,2341.84,bang,right,Derke,left,4
 17,2342.84,Cryo,right,PROFEK,left,5
 17,2351.85,,,bang,right,1
@@ -126,7 +125,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 18,2410.41,bang,right,Sayonara,left,4
 18,2414.41,Cryo,right,PROFEK,left,5
 18,2427.43,Jamppi,left,Timotino,right,4
-18,2434.43,,,Derke,left,3
+18,2434.43,Asuna,right,Derke,left,3
 19,2516.01,bang,right,PROFEK,left,4
 19,2521.02,Chronicle,left,bang,right,2
 19,2521.02,Chronicle,left,Timotino,right,3
@@ -134,7 +133,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 19,2530.03,Jamppi,left,Cryo,right,2
 19,2535.03,Asuna,right,Derke,left,4
 19,2537.03,Jamppi,left,Asuna,right,2
-19,2537.03,,,Jamppi,left,2
+19,2537.03,Vora,right,Jamppi,left,2
 19,2552.05,Sayonara,left,Vora,right,1
 20,2678.18,bang,right,Jamppi,left,4
 20,2679.18,bang,right,Chronicle,left,5

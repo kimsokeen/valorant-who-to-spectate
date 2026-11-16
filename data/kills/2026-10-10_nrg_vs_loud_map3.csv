@@ -1,6 +1,6 @@
 round,time_s,killer,killer_side,victim,victim_side,seen
 0,53.05,tkzin,right,brawk,left,4
-0,61.06,luk xo,right,Ethan,left,4
+0,61.06,Erde,right,Ethan,left,4
 0,62.06,mada,left,DaviH,right,4
 0,62.06,mada,left,Erde,right,4
 0,64.06,mada,left,tkzin,right,2
@@ -19,23 +19,21 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 2,316.07,Ethan,left,DaviH,right,5
 2,319.07,skuba,left,tkzin,right,2
 3,404.65,mada,left,tkzin,right,4
-3,406.66,,,Ethan,left,1
 3,406.66,DaviH,right,mada,left,4
 3,454.7,luk xo,right,Ethan,left,5
 3,463.71,brawk,left,luk xo,right,5
 3,468.72,DaviH,right,skuba,left,5
 3,475.73,brawk,left,Erde,right,4
-3,495.75,,,Darker,right,2
+3,495.75,brawk,left,Darker,right,2
 4,667.42,Darker,right,Ethan,left,4
 4,667.42,Erde,right,brawk,left,4
 4,667.42,Darker,right,skuba,left,4
-4,676.43,,,mada,left,3
+4,676.43,tkzin,right,mada,left,3
 5,773.02,mada,left,Erde,right,4
-5,794.04,,,brawk,left,1
+5,794.04,tkzin,right,brawk,left,1
 5,794.04,luk xo,right,mada,left,4
 5,795.04,Ethan,left,luk xo,right,5
-5,797.05,,,Ethan,left,2
-6,945.45,,,Ethan,left,1
+5,797.05,DaviH,right,Ethan,left,2
 6,946.45,skuba,left,tkzin,right,4
 6,948.45,Erde,right,skuba,left,4
 6,954.45,Ethan,left,luk xo,right,4
@@ -46,14 +44,14 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 7,1195.19,Ethan,left,Darker,right,5
 7,1197.2,mada,left,tkzin,right,4
 7,1199.2,luk xo,right,Ethan,left,3
-7,1199.2,luk xo,right,mada,left,3
+7,1199.2,luk xo,right,mada,left,4
 8,1255.25,tkzin,right,Ethan,left,3
 8,1278.28,luk xo,right,skuba,left,3
 9,1364.36,keiko,left,luk xo,right,4
 9,1367.37,keiko,left,tkzin,right,5
 9,1378.38,DaviH,right,Ethan,left,2
 9,1391.39,skuba,left,DaviH,right,5
-9,1393.39,Darker,right,mada,left,2
+9,1392.39,Darker,right,mada,left,3
 9,1396.39,skuba,left,Darker,right,5
 9,1396.39,Erde,right,skuba,left,5
 9,1408.41,Erde,right,brawk,left,4
@@ -68,7 +66,6 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 11,1593.84,Ethan,left,Darker,right,5
 11,1593.84,Ethan,left,luk xo,right,3
 11,1611.86,,,tkzin,right,4
-11,1614.86,,,Ethan,left,1
 11,1616.87,DaviH,right,skuba,left,5
 11,1616.87,Ethan,left,DaviH,right,4
 11,1633.88,Erde,right,Ethan,left,4
@@ -89,12 +86,12 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 14,2082.08,DaviH,right,mada,left,4
 14,2083.08,DaviH,right,Ethan,left,4
 14,2086.08,tkzin,right,skuba,left,4
-14,2088.09,,,DaviH,right,1
+14,2088.09,skuba,left,DaviH,right,1
 14,2091.09,luk xo,right,brawk,left,4
 14,2091.09,luk xo,right,keiko,left,4
 14,2092.09,keiko,left,luk xo,right,2
 15,2175.17,tkzin,right,keiko,left,4
+15,2178.18,luk xo,right,Ethan,left,3
 15,2178.18,luk xo,right,brawk,left,3
-15,2178.18,luk xo,right,Ethan,left,2
 15,2178.18,Darker,right,mada,left,3
 15,2181.18,Darker,right,skuba,left,1

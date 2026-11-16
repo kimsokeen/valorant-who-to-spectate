@@ -1,6 +1,6 @@
 round,time_s,killer,killer_side,victim,victim_side,seen
 0,35.03,avez,left,Francis,right,3
-0,60.06,,,Dambi,right,1
+0,60.06,SUYGETSU,left,Dambi,right,2
 0,68.07,LewN,left,Rb,right,5
 0,70.07,N4RRATE,left,Xross,right,5
 1,139.64,dos9,left,Francis,right,3
@@ -12,6 +12,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 2,247.25,SUYGETSU,left,Dambi,right,3
 2,274.27,LewN,left,Francis,right,3
 2,282.28,Rb,right,N4RRATE,left,1
+2,284.28,,,LewN,left,1
 2,291.29,Rb,right,SUYGETSU,left,1
 3,391.39,N4RRATE,left,Francis,right,4
 3,424.42,Dambi,right,dos9,left,2
@@ -26,7 +27,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 4,615.87,LewN,left,Rb,right,3
 4,620.87,Xross,right,avez,left,4
 4,621.87,LewN,left,Ivy,right,4
-4,621.87,Xross,right,dos9,left,2
+4,621.87,Xross,right,dos9,left,3
 4,622.87,LewN,left,Francis,right,3
 4,623.87,LewN,left,Xross,right,2
 5,692.19,,,Rb,right,1
@@ -49,7 +50,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 8,1093.59,N4RRATE,left,Francis,right,1
 8,1108.61,Dambi,right,N4RRATE,left,5
 8,1122.62,Dambi,right,SUYGETSU,left,4
-8,1123.62,,,dos9,left,3
+8,1123.62,Dambi,right,dos9,left,3
 8,1124.62,avez,left,Dambi,right,3
 8,1124.62,LewN,left,Rb,right,4
 8,1132.63,avez,left,Xross,right,4
@@ -59,9 +60,9 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 9,1248.75,Rb,right,N4RRATE,left,2
 9,1248.75,SUYGETSU,left,Rb,right,3
 10,1314.06,N4RRATE,left,Xross,right,4
-10,1314.06,Dambi,right,N4RRATE,left,3
+10,1314.06,Dambi,right,N4RRATE,left,4
 10,1318.07,Ivy,right,SUYGETSU,left,2
-10,1323.07,,,Rb,right,1
+10,1323.07,avez,left,Rb,right,1
 10,1324.07,avez,left,Dambi,right,4
 10,1366.12,Ivy,right,LewN,left,4
 10,1374.12,Ivy,right,dos9,left,5
@@ -74,7 +75,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 11,1515.51,,,Francis,right,4
 11,1529.53,Rb,right,dos9,left,5
 11,1537.54,Xross,right,LewN,left,4
-11,1539.54,,,avez,left,3
+11,1539.54,Xross,right,avez,left,3
 11,1546.55,N4RRATE,left,Ivy,right,2
 11,1565.56,Rb,right,N4RRATE,left,1
 12,1805.05,Ivy,right,LewN,left,2
@@ -91,12 +92,12 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 13,1930.43,Ivy,right,avez,left,4
 13,1992.49,Ivy,right,N4RRATE,left,5
 13,1994.49,dos9,left,Dambi,right,3
-13,1996.49,,,dos9,left,2
+13,1996.49,Ivy,right,dos9,left,2
 14,2062.56,LewN,left,Xross,right,3
 14,2062.56,Francis,right,avez,left,5
 14,2064.56,Francis,right,dos9,left,5
 14,2064.56,Dambi,right,LewN,left,4
-14,2067.57,,,Ivy,right,1
+14,2067.57,dos9,left,Ivy,right,1
 14,2090.59,Dambi,right,SUYGETSU,left,5
 15,2258.51,Francis,right,N4RRATE,left,5
 15,2301.55,Xross,right,avez,left,5

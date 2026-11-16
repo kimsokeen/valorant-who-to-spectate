@@ -5,10 +5,10 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 0,66.07,Sayonara,right,Kristal,left,1
 0,67.07,Kristal,left,Derke,right,2
 0,76.08,autumn,left,Sayonara,right,5
-1,139.89,UdoTan,left,Derke,right,3
+1,138.89,UdoTan,left,Derke,right,4
 1,158.91,Xavi8k,left,PROFEK,right,5
 1,159.91,Kristal,left,Chronicle,right,5
-1,161.91,Sayonara,right,Kristal,left,2
+1,160.91,Sayonara,right,Kristal,left,3
 1,163.91,PatMen,left,Sayonara,right,5
 1,163.91,autumn,left,Jamppi,right,5
 2,227.23,PatMen,left,Derke,right,5
@@ -48,7 +48,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 7,996.25,Derke,right,Xavi8k,left,3
 7,998.25,Kristal,left,Derke,right,3
 7,1023.27,PROFEK,right,Kristal,left,4
-8,1078.08,Chronicle,right,Kristal,left,1
+8,1076.08,Chronicle,right,Kristal,left,2
 8,1110.11,autumn,left,Derke,right,3
 9,1210.21,Xavi8k,left,Chronicle,right,4
 9,1231.23,Jamppi,right,Kristal,left,5
@@ -61,7 +61,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 10,1372.87,Xavi8k,left,Chronicle,right,3
 10,1380.88,PatMen,left,Sayonara,right,5
 10,1415.91,Kristal,left,Derke,right,5
-10,1425.92,,,PROFEK,right,2
+10,1425.92,Kristal,left,PROFEK,right,2
 11,1512.26,Sayonara,right,Xavi8k,left,1
 11,1517.27,Derke,right,Kristal,left,1
 11,1567.32,UdoTan,left,Chronicle,right,2
@@ -80,7 +80,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 13,1891.89,Kristal,left,Jamppi,right,2
 13,1892.89,Chronicle,right,autumn,left,1
 13,1892.89,Jamppi,right,UdoTan,left,3
-13,1897.9,Chronicle,right,Kristal,left,2
+13,1897.9,Chronicle,right,Kristal,left,4
 13,1897.9,Derke,right,PatMen,left,5
 14,1959.96,Derke,right,Xavi8k,left,3
 14,1959.96,Chronicle,right,UdoTan,left,5
@@ -99,7 +99,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 16,2231.98,Derke,right,UdoTan,left,5
 16,2252.0,Derke,right,autumn,left,4
 16,2257.01,PatMen,left,Chronicle,right,4
-16,2260.01,PROFEK,right,Kristal,left,1
+16,2257.01,PROFEK,right,Kristal,left,2
 16,2260.01,PROFEK,right,Xavi8k,left,1
 16,2262.01,Jamppi,right,PatMen,left,5
 16,2263.01,PatMen,left,Derke,right,3
@@ -107,7 +107,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 17,2320.57,Chronicle,right,autumn,left,3
 17,2331.58,Jamppi,right,Xavi8k,left,4
 17,2331.58,Jamppi,right,PatMen,left,4
-17,2336.58,Jamppi,right,Kristal,left,3
+17,2335.58,Jamppi,right,Kristal,left,4
 18,2438.44,UdoTan,left,Sayonara,right,4
 18,2438.44,autumn,left,PROFEK,right,4
 18,2440.44,Derke,right,autumn,left,3
@@ -126,9 +126,8 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 20,2704.2,UdoTan,left,Sayonara,right,4
 20,2704.2,UdoTan,left,Derke,right,4
 20,2705.2,Jamppi,right,UdoTan,left,4
-20,2717.22,,,Jamppi,right,4
 21,2778.53,UdoTan,left,PROFEK,right,4
-21,2804.55,UdoTan,left,Sayonara,right,4
+21,2803.55,UdoTan,left,Sayonara,right,5
 21,2806.55,Chronicle,right,autumn,left,5
 21,2807.55,Derke,right,UdoTan,left,5
 21,2810.56,Chronicle,right,Kristal,left,3
@@ -148,5 +147,6 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 23,3142.64,Chronicle,right,autumn,left,1
 23,3143.64,Xavi8k,left,Chronicle,right,3
 23,3148.65,Xavi8k,left,Jamppi,right,2
+23,3151.65,Kristal,left,Sayonara,right,1
 23,3157.66,Xavi8k,left,PROFEK,right,2
 23,3158.66,Derke,right,Kristal,left,1

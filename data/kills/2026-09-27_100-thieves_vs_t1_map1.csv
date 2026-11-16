@@ -6,6 +6,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 0,53.05,Timotino,left,iZu,right,1
 0,60.06,Timotino,left,stax,right,4
 1,106.11,Vora,left,BuZz,right,5
+1,107.11,,,bang,left,1
 1,108.11,iZu,right,Timotino,left,3
 1,114.11,,,iZu,right,1
 1,135.13,Vora,left,stax,right,5
@@ -19,7 +20,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 3,352.6,Meteor,right,Cryo,left,4
 3,359.61,bang,left,Munchkin,right,3
 3,359.61,bang,left,stax,right,4
-3,359.61,,,bang,left,5
+3,359.61,iZu,right,bang,left,5
 3,368.62,Timotino,left,Meteor,right,4
 3,370.62,iZu,right,Timotino,left,5
 4,459.96,Meteor,right,Asuna,left,1
@@ -38,10 +39,11 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 6,814.06,Munchkin,right,bang,left,1
 6,818.07,Asuna,left,BuZz,right,8
 6,826.08,Meteor,right,Timotino,left,3
-6,827.08,,,Vora,left,3
-6,832.08,Cryo,left,Meteor,right,3
-7,976.98,,,Timotino,left,2
-7,977.98,Cryo,left,BuZz,right,2
+6,827.08,iZu,right,Vora,left,3
+6,828.08,Cryo,left,Meteor,right,4
+7,976.98,BuZz,right,Timotino,left,2
+7,977.98,,,iZu,right,1
+7,978.98,Cryo,left,BuZz,right,1
 7,981.98,stax,right,Cryo,left,3
 7,983.98,,,bang,left,2
 7,991.99,Munchkin,right,Asuna,left,3
@@ -78,7 +80,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 11,1594.34,bang,left,Meteor,right,4
 11,1596.35,Munchkin,right,bang,left,3
 11,1599.35,Cryo,left,Munchkin,right,5
-11,1608.36,,,Cryo,left,1
+11,1608.36,iZu,right,Cryo,left,1
 12,1787.04,Asuna,left,Meteor,right,2
 12,1860.11,Cryo,left,BuZz,right,1
 12,1860.11,Timotino,left,stax,right,2

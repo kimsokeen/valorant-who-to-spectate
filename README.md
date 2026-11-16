@@ -94,7 +94,11 @@ python scripts/read_killfeed.py     # every kill: round, time, killer, victim ->
 
 The kill feed reader splits each row where the team colour changes, reads killer and victim separately, and matches them to the map's roster, so OCR slips ("Tuk xo") and cut-off tags still resolve. Killer and victim must be on opposite teams. Each kill is counted once per (round, victim), at the moment it first appears.
 
-Checked on the Grand Final: the first four rounds give VIT 3 - LOUD 1, matching the broadcast score.
+Rounds and their winners come from the HUD score: a team's score digits look identical until that team wins a round, so comparing the score area between gameplay stretches shows when a round ended and who won it, with no OCR. On 17 of 18 maps this gives exactly the real round count and final score (overtime included).
+
+Names are also compared in a look-alike form (4 = a = é, 1 = l = i, 0 = o), so OCR readings like "dével" still match d4v41; an exact match always wins.
+
+Checked against official stats: luk xo's 26 kills on Summit in the upper bracket final were read as 25.
 
 ## Roadmap
 

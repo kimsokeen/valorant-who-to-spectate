@@ -1,7 +1,7 @@
 round,time_s,killer,killer_side,victim,victim_side,seen
 0,72.82,bang,right,Dambi,left,3
 0,74.83,Cryo,right,Francis,left,2
-0,77.83,,,Timotino,right,3
+0,77.83,Ivy,left,Timotino,right,3
 0,77.83,,,Asuna,right,2
 0,78.83,Xross,left,Cryo,right,2
 1,129.13,Asuna,right,Dambi,left,4
@@ -33,12 +33,12 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 5,712.71,Francis,left,bang,right,5
 5,713.71,Cryo,right,Dambi,left,3
 5,716.72,Timotino,right,Rb,left,2
-5,716.72,,,Cryo,right,3
+5,716.72,Ivy,left,Cryo,right,3
 5,722.72,Timotino,right,Francis,left,3
 6,814.31,Cryo,right,Francis,left,3
 6,818.32,Dambi,left,bang,right,4
 6,820.32,Cryo,right,Dambi,left,5
-6,820.32,,,Vora,right,4
+6,820.32,Ivy,left,Vora,right,4
 6,823.32,Ivy,left,Cryo,right,3
 6,826.33,Asuna,right,Ivy,left,2
 6,830.33,Rb,left,Timotino,right,3
@@ -56,7 +56,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 8,1144.89,Francis,left,Asuna,right,3
 8,1150.9,Timotino,right,Rb,left,4
 8,1153.9,Vora,right,Francis,left,3
-8,1154.9,,,Timotino,right,2
+8,1154.9,Ivy,left,Timotino,right,2
 8,1154.9,bang,right,Ivy,left,1
 9,1201.45,Dambi,left,Timotino,right,4
 9,1202.45,Dambi,left,Vora,right,3
@@ -76,7 +76,6 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 11,1501.75,bang,right,Xross,left,2
 11,1527.78,Ivy,left,Asuna,right,5
 11,1534.78,Vora,right,Rb,left,3
-11,1538.79,,,Dambi,left,4
 11,1540.79,Cryo,right,Ivy,left,1
 12,1759.01,Vora,right,Francis,left,4
 12,1762.01,Dambi,left,Vora,right,2
@@ -87,7 +86,6 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 12,1781.03,Dambi,left,Timotino,right,4
 12,1793.04,Xross,left,Asuna,right,1
 13,1849.1,Dambi,left,Cryo,right,1
-13,1851.1,,,Rb,left,1
 13,1852.1,Asuna,right,Dambi,left,3
 13,1869.12,Francis,left,Timotino,right,5
 13,1875.12,Xross,left,bang,right,4
@@ -98,7 +96,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 14,1994.24,Timotino,right,Dambi,left,5
 14,2029.28,bang,right,Ivy,left,1
 14,2042.29,Vora,right,Francis,left,5
-14,2045.29,Xross,left,bang,right,3
+14,2045.29,Xross,left,bang,right,4
 14,2049.3,Asuna,right,Xross,left,3
 14,2049.3,Rb,left,Timotino,right,3
 14,2052.3,Vora,right,Rb,left,1
@@ -111,7 +109,7 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 15,2143.14,Timotino,right,Xross,left,3
 15,2144.14,Xross,left,Vora,right,2
 16,2182.93,bang,right,Francis,left,5
-16,2200.95,,,Timotino,right,4
+16,2200.95,Ivy,left,Timotino,right,4
 16,2221.97,Xross,left,Vora,right,5
 16,2222.97,Cryo,right,Dambi,left,2
 16,2224.97,bang,right,Rb,left,5
@@ -121,7 +119,6 @@ round,time_s,killer,killer_side,victim,victim_side,seen
 17,2375.12,Francis,left,Timotino,right,3
 17,2376.12,Cryo,right,Xross,left,4
 17,2377.12,Vora,right,Rb,left,4
-17,2378.13,,,Vora,right,4
+17,2378.13,Ivy,left,Vora,right,4
 17,2380.13,bang,right,Francis,left,4
 17,2386.13,Ivy,left,Cryo,right,4
-17,2404.15,,,Dambi,left,4
