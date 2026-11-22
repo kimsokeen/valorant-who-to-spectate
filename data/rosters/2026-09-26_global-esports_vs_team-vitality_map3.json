@@ -164,5 +164,57 @@
       "of": 12,
       "score": 0.9
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "PatMen"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "Kristal"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "Xavi8k"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "UdoTan"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "autumn"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "Chronicle"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "Derke"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "Jamppi"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "Sayonara"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "PROFEK"
+    }
+  ]
 }

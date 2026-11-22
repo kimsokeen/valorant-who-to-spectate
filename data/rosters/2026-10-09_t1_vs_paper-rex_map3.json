@@ -164,5 +164,57 @@
       "of": 14,
       "score": 0.94
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "Meteor"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "iZu"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "stax"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "Munchkin"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "BuZz"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "fOrsakeN"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "something"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "d4v41"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "Jinggg"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "invy"
+    }
+  ]
 }

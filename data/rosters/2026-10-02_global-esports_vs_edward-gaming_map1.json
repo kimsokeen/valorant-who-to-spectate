@@ -110,7 +110,7 @@
       "of": 8,
       "score": 0.97
     },
-    "ZmijkK": {
+    "ZmijKK": {
       "agent": "Neon",
       "votes": 7,
       "of": 7,
@@ -164,5 +164,57 @@
       "of": 9,
       "score": 0.94
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "CHICHOO"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "ZmijKK"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "Stew"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "nobody"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "Smoggy"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "PatMen"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "Kristal"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "Xavi8k"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "UdoTan"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "autumn"
+    }
+  ]
 }

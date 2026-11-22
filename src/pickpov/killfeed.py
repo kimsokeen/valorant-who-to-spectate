@@ -109,6 +109,8 @@ def match_pair(killer_text: str, victim_text: str,
 def load_roster(path: str | Path) -> dict[str, str]:
     """{player name: 'left' | 'right'} from data/rosters/<map>.json."""
     r = json.loads(Path(path).read_text())
+    if "players" in r:      # cleaned list from scripts/clean_rosters.py: 5 per side
+        return {p["name"]: p["side"] for p in r["players"]}
     out = {}
     for half in r["halves"].values():
         for side, key in (("left", "team_left"), ("right", "team_right")):

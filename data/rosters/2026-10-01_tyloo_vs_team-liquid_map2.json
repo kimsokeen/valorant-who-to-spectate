@@ -163,12 +163,58 @@
       "votes": 8,
       "of": 8,
       "score": 0.94
-    },
-    "trexx": {
-      "agent": null,
-      "votes": 0,
-      "of": 0,
-      "score": 0.0
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "kamo"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "GSR"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "nAts"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "Kicks"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "trex"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "Scales"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "Splash"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "SiufatBB"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "Erv"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "slowly"
+    }
+  ]
 }

@@ -164,5 +164,57 @@
       "of": 14,
       "score": 0.94
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "Dambi"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "Xross"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "Rb"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "Francis"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "Ivy"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "happywei"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "Lysoar"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "WsLeo"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "NoMan"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "Rarga"
+    }
+  ]
 }

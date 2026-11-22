@@ -164,5 +164,57 @@
       "of": 4,
       "score": 0.97
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "N4RRATE"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "SUYGETSU"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "avez"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "LewN"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "dos9"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "Dambi"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "Xross"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "Rb"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "Francis"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "Ivy"
+    }
+  ]
 }

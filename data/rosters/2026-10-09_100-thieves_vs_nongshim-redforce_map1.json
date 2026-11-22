@@ -164,5 +164,57 @@
       "of": 9,
       "score": 0.88
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "Dambi"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "Xross"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "Rb"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "Francis"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "Ivy"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "Cryo"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "bang"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "Vora"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "Asuna"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "Timotino"
+    }
+  ]
 }

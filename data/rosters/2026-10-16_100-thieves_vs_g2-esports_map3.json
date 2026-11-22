@@ -158,11 +158,63 @@
       "of": 7,
       "score": 0.96
     },
-    "Timatino": {
+    "Timotino": {
       "agent": "Neon",
       "votes": 8,
       "of": 8,
       "score": 0.89
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "JAWGEMO"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "leaf"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "valyn"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "trent"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "BABYBAY"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "Cryo"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "bang"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "Vora"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "Asuna"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "Timotino"
+    }
+  ]
 }

@@ -164,5 +164,57 @@
       "of": 5,
       "score": 0.95
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "skuba"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "brawk"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "Ethan"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "keiko"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "mada"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "Darker"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "luk xo"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "Erde"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "tkzin"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "DaviH"
+    }
+  ]
 }

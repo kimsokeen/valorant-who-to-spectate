@@ -164,5 +164,57 @@
       "of": 8,
       "score": 0.94
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "sOpp"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "xeus"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "sociablEE"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "yetujey"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "KROSTALY"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "Zhe"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "Yuicaw"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "BerLIN"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "crownfisher"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "jkuro"
+    }
+  ]
 }

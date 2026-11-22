@@ -164,5 +164,57 @@
       "of": 9,
       "score": 0.91
     }
-  }
+  },
+  "players": [
+    {
+      "side": "left",
+      "slot": 0,
+      "name": "Chronicle"
+    },
+    {
+      "side": "left",
+      "slot": 1,
+      "name": "Derke"
+    },
+    {
+      "side": "left",
+      "slot": 2,
+      "name": "Jamppi"
+    },
+    {
+      "side": "left",
+      "slot": 3,
+      "name": "Sayonara"
+    },
+    {
+      "side": "left",
+      "slot": 4,
+      "name": "PROFEK"
+    },
+    {
+      "side": "right",
+      "slot": 0,
+      "name": "Darker"
+    },
+    {
+      "side": "right",
+      "slot": 1,
+      "name": "luk xo"
+    },
+    {
+      "side": "right",
+      "slot": 2,
+      "name": "Erde"
+    },
+    {
+      "side": "right",
+      "slot": 3,
+      "name": "tkzin"
+    },
+    {
+      "side": "right",
+      "slot": 4,
+      "name": "DaviH"
+    }
+  ]
 }
