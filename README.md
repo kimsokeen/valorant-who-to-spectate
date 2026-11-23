@@ -100,6 +100,18 @@ Names are also compared in a look-alike form (4 = a = é, 1 = l = i, 0 = o), so 
 
 Checked against official stats: luk xo's 26 kills on Summit in the upper bracket final were read as 25.
 
+## Player positions (minimap)
+
+```
+python scripts/get_agent_icons.py           # agent art from valorant-api.com -> configs/agents/ (not in git)
+python scripts/read_agents.py --jobs 8      # each player's agent, from mirrored kill feed portraits
+python scripts/read_positions.py --jobs 8   # every player's minimap position, 2 per second -> data/positions/
+```
+
+Each player is a ~14 px agent portrait in a ring of his team's colour. Knowing the map's 10 agents, the reader template-matches only those, keeps matches on the map drawing (the game scene shows through the minimap), and checks the ring: real icons have 30+ ring-coloured pixels, look-alikes ~0. Which team is teal swaps with sides, so it's decided per round. The ring colour also separates mirror picks.
+
+Checked on three maps: 77-92% of alive players found per frame, with smooth tracks (median move 3-5 px per half second, under 2% jumps over 40 px). At kills, the victim is the killer's nearest enemy 65% of the time against 36-46% by chance. In fights icons blink out, so a missing player keeps his last position for up to 1.5 s, marked `held`.
+
 ## Roadmap
 
 1. **Data** — VODs, calibrated regions, skip replays and caster cams
