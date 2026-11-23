@@ -16,11 +16,34 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
-from pickpov.picker import load_frames, pick_most_contested, pick_nearest_enemy  # noqa: E402
+import cv2  # noqa: E402
+from pickpov.picker import (load_frames, pick_contested_walking, pick_most_contested,  # noqa: E402
+                           pick_most_visible, pick_nearest_enemy, pick_nearest_walking)
+from pickpov.walls import Summit  # noqa: E402
 from pickpov.pov import load_pov, pov_at  # noqa: E402
-from pickpov.scoring import load_kills, run_picker, score_picks  # noqa: E402
+from pickpov.scoring import frames_needed, load_kills, run_picker, score_picks  # noqa: E402
 
 PICKERS = {"nearest_enemy": pick_nearest_enemy, "most_contested": pick_most_contested}
+# These use walls and doors; door states are read from the minimap crop of each
+# frame they're asked about, so they only run on the frames scoring needs.
+WALL_PICKERS = {"most_visible": pick_most_visible, "nearest_walking": pick_nearest_walking,
+                "contested_walking": pick_contested_walking}
+
+
+def wall_picks(name: str, frames: list, kills: list, leads: list[float], summit: Summit) -> dict:
+    samples = {}
+    with open(ROOT / "data" / "positions" / f"{name}.csv", newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            samples[float(r["time_s"])] = int(r["sample"])
+    need = set().union(*(frames_needed(frames, kills, lead) for lead in leads))
+    by_t = {t: fr for t, _, fr in frames}
+    out = {pname: {} for pname in WALL_PICKERS}
+    for t in sorted(need):
+        img = cv2.imread(str(ROOT / "crops" / name / "minimap" / f"{samples[t]:06d}.jpg"))
+        closed = summit.door_states(img) if img is not None else ()
+        for pname, picker in WALL_PICKERS.items():
+            out[pname][t] = picker(by_t[t], summit, closed)
+    return out
 
 
 def main() -> None:
@@ -29,11 +52,14 @@ def main() -> None:
     parser.add_argument("--lead", type=float, nargs="*", default=[2.5])
     args = parser.parse_args()
     maps = sorted(p.stem for p in (ROOT / "data" / "positions").glob("*.csv"))
+    summit = Summit(ROOT / "configs" / "maps" / "summit_walkable.png", ROOT / "configs" / "maps" / "summit_doors.json",
+                    cache_dir=ROOT / "configs" / "maps" / "cache")
     rows = []
     for name in maps:
         frames = load_frames(ROOT / "data" / "positions" / f"{name}.csv")
         kills = load_kills(ROOT / "data" / "kills" / f"{name}.csv")
         contestants = {pname: run_picker(frames, picker) for pname, picker in PICKERS.items()}
+        contestants.update(wall_picks(name, frames, kills, args.lead, summit))
         pov_csv = ROOT / "data" / "pov" / f"{name}.csv"
         if pov_csv.exists():     # the real broadcast, read by scripts/read_pov.py
             contestants["broadcast"] = pov_at(load_pov(pov_csv), [t for t, _, _ in frames])

@@ -67,3 +67,19 @@ def score_picks(frames: list, kills: list[dict], picks: dict[float, str | None],
 
 def run_picker(frames: list, picker: Callable) -> dict[float, str | None]:
     return {t: picker(frame) for t, _, frame in frames}
+
+
+def frames_needed(frames: list, kills: list[dict], lead: float, max_gap: float = 0.6) -> set[float]:
+    """The frame times score_picks will look at: one per kill. Pickers that are
+    expensive (they read door states from images) only need to run on these."""
+    times = [t for t, _, _ in frames]
+    need = set()
+    for k in kills:
+        if not k["killer"]:
+            continue
+        target = k["time_s"] - lead
+        i = bisect.bisect_left(times, target)
+        best = min((j for j in (i - 1, i) if 0 <= j < len(times)), key=lambda j: abs(times[j] - target), default=None)
+        if best is not None and abs(times[best] - target) <= max_gap and frames[best][1] == k["round"]:
+            need.add(times[best])
+    return need

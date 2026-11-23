@@ -19,3 +19,6 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 .pytest_cache/
+
+# Walking-distance tables (rebuilt automatically in seconds)
+configs/maps/cache/

@@ -112,6 +112,27 @@ Each player is a ~14 px agent portrait in a ring of his team's colour. Knowing t
 
 Checked on three maps: 77-92% of alive players found per frame, with smooth tracks (median move 3-5 px per half second, under 2% jumps over 40 px). At kills, the victim is the killer's nearest enemy 65% of the time against 36-46% by chance. In fights icons blink out, so a missing player keeps his last position for up to 1.5 s, marked `held`.
 
+## Walls, doors and the rule pickers (week 3)
+
+`configs/maps/summit_walkable.png` is Summit's walkable floor, voted across all 18 maps plus where players actually stand (both sites); 99.7% of 460k detected positions land on it. `configs/maps/summit_doors.json` holds the A, mid and B doors: a closed door is drawn as a black bar, so each frame's door states are read from the minimap (closed 24%, 61% and 23% of the time). `pickpov.walls` gives line of sight and walking distance around walls and closed doors.
+
+```
+python scripts/read_pov.py --jobs 8          # who the real broadcast was showing, every second
+python scripts/evaluate_pickers.py --lead 0 2.5
+```
+
+Over 2,544 kills, 2.5 s before each kill:
+
+| Picker | Caught the killer | Caught the fight |
+| --- | --- | --- |
+| Random pick | 14.6% | 29.0% |
+| Nearest enemy (straight line) | 20.8% | 42.6% |
+| Most enemies within 60 px (straight line) | 21.8% | 46.7% |
+| Most enemies within 90 px walking distance | **24.0%** | **50.9%** |
+| Real broadcast | 27.7% | 55.2% |
+
+At the moment of the kill, the real broadcast was on the killer 45.0% of the time. Just before kills, a killer can see his victim 70% of the time but only 12% of his other enemies.
+
 ## Roadmap
 
 1. **Data** — VODs, calibrated regions, skip replays and caster cams
