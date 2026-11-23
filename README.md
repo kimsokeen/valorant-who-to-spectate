@@ -131,7 +131,9 @@ Over 2,544 kills, 2.5 s before each kill:
 | Most enemies within 90 px walking distance | **24.0%** | **50.9%** |
 | Real broadcast | 27.7% | 55.2% |
 
-At the moment of the kill, the real broadcast was on the killer 45.0% of the time. Just before kills, a killer can see his victim 70% of the time but only 12% of his other enemies.
+At the moment of the kill, the real broadcast was on the killer 45.0% of the time.
+
+Known limitation: boxes and small cover aren't in the floor map. They're faint on the minimap, and players often shoot over or around them, so marking them as solid walls would be wrong in a different way; the effect on line of sight is small. Height (stairs, ledges) is also lost on the flat minimap. Just before kills, a killer can see his victim 70% of the time but only 12% of his other enemies.
 
 ## Roadmap
 
