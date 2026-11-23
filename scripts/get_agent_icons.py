@@ -37,7 +37,9 @@ def main() -> None:
                 (folder / fname).write_bytes(fetch(a[field]))
                 got.append(fname)
         print(f"{a['displayName']:10s} {', '.join(got)}")
-    print(f"\n{len(agents)} agents saved to {out.relative_to(ROOT)}")
+    roles = {a["displayName"]: (a.get("role") or {}).get("displayName", "Unknown") for a in agents}
+    (out / "roles.json").write_text(json.dumps(roles, indent=1, sort_keys=True))
+    print(f"\n{len(agents)} agents saved to {out.relative_to(ROOT)} (roles in roles.json)")
 
 
 if __name__ == "__main__":

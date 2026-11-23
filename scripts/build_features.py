@@ -26,6 +26,8 @@ from pickpov.features import FEATURES, player_features  # noqa: E402
 from pickpov.walls import Summit  # noqa: E402
 
 LEADS = (2.0, 2.5, 3.0)
+# Optional health inputs (data/health/, from read_health.py); -1 = unknown
+HEALTH = ["hp", "enemy_hp", "hp_adv"]
 MAX_GAP = 0.6
 
 
@@ -45,6 +47,19 @@ def build(name: str, summit: Summit) -> int:
             round_start[int(r["round"])] = float(r["start_s"])
     with open(ROOT / "data" / "kills" / f"{name}.csv", newline="", encoding="utf-8") as f:
         kills = [k for k in csv.DictReader(f) if k["killer"]]
+    health_t, health = [], []
+    hf = ROOT / "data" / "health" / f"{name}.csv"
+    if hf.exists():
+        by_t = {}
+        with open(hf, newline="", encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                by_t.setdefault(float(r["time_s"]), {})[r["player"]] = int(r["hp"])
+        health_t = sorted(by_t)
+        health = [by_t[t] for t in health_t]
+
+    def hp_at(t: float) -> dict:
+        i = bisect.bisect_right(health_t, t) - 1
+        return health[i] if i >= 0 and t - health_t[i] <= 1.5 else {}
 
     rows = []
     for kid, k in enumerate(kills):
@@ -66,14 +81,20 @@ def build(name: str, summit: Summit) -> int:
             closed = summit.door_states(img) if img is not None else (False, False, False)
             feats = player_features(frame, prev, (t - prev_t) if prev else 0.0, summit, closed,
                                     t - round_start.get(rnd, t), held)
+            hp = hp_at(t)
             for p, vals in feats.items():
-                rows.append([name, kid, lead, round(t, 2), rnd, p, frame[p][2], int(p == k["killer"]),
-                             int(p in (k["killer"], k["victim"]))] + [round(v, 3) for v in vals])
+                x, y, side = frame[p]
+                enemies = [q for q, v in frame.items() if v[2] != side]
+                near = min(enemies, key=lambda q: summit.walking_distance((x, y), frame[q][:2], closed)) if enemies else None
+                own, opp = hp.get(p, -1), (hp.get(near, -1) if near else -1)
+                adv = own - opp if own >= 0 and opp >= 0 else 0
+                rows.append([name, kid, lead, round(t, 2), rnd, p, side, int(p == k["killer"]),
+                             int(p in (k["killer"], k["victim"]))] + [round(v, 3) for v in vals] + [own, opp, adv])
     out = ROOT / "data" / "features"
     out.mkdir(parents=True, exist_ok=True)
     with open(out / f"{name}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["map", "kill_id", "lead", "time_s", "round", "player", "side", "is_killer", "in_fight"] + FEATURES)
+        w.writerow(["map", "kill_id", "lead", "time_s", "round", "player", "side", "is_killer", "in_fight"] + FEATURES + HEALTH)
         w.writerows(rows)
     return len(rows)
 

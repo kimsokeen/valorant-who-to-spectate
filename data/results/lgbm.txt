@@ -1,0 +1,51 @@
+health known for 97% of rows -> also testing a model WITH health
+49844 rows, 7631 moments, 18 maps, 24 features
+role coverage: 98% of rows have a role
+  tested on 2026-09-26_global-esports_vs_team-vitality_map3
+  tested on 2026-09-26_loud_vs_edward-gaming_map2
+  tested on 2026-09-27_100-thieves_vs_t1_map1
+  tested on 2026-09-27_jd-gaming_vs_fut-esports_map2
+  tested on 2026-09-29_karmine-corp_vs_nrg_map2
+  tested on 2026-09-30_team-vitality_vs_loud_map2
+  tested on 2026-10-01_tyloo_vs_team-liquid_map2
+  tested on 2026-10-01_xi-lai-gaming_vs_nongshim-redforce_map1
+  tested on 2026-10-02_global-esports_vs_edward-gaming_map1
+  tested on 2026-10-03_karmine-corp_vs_nongshim-redforce_map2
+  tested on 2026-10-07_nrg_vs_t1_map2
+  tested on 2026-10-09_100-thieves_vs_nongshim-redforce_map1
+  tested on 2026-10-09_t1_vs_paper-rex_map3
+  tested on 2026-10-10_nrg_vs_loud_map3
+  tested on 2026-10-16_100-thieves_vs_g2-esports_map3
+  tested on 2026-10-16_team-vitality_vs_loud_map2
+  tested on 2026-10-17_team-vitality_vs_100-thieves_map2
+  tested on 2026-10-18_loud_vs_team-vitality_map1
+
+2544 kills, 2.5 s before each, every map tested by a model that never saw it:
+  best rule                caught killer 24.9%   caught fight 52.6%
+  linear model             caught killer 25.1%   caught fight 51.0%
+  LightGBM, killer only    caught killer 25.9%   caught fight 49.7%
+  LightGBM, fight aware    caught killer 26.7%   caught fight 53.0%
+  LightGBM + health        caught killer 26.6%   caught fight 52.1%
+  real broadcast (its readable kills): 27.7% / 55.2%
+  LightGBM killer only: beats the rule on 9 of 18 maps
+  LightGBM fight aware: beats the rule on 13 of 18 maps
+
+Head-to-head on the same 2259 kills (broadcast POV readable), caught the killer 2.5 s before:
+  LightGBM (fight aware): 26.6%   real broadcast: 27.7%
+  both right 209, only the model 392, only the broadcast 417, neither 1241
+  sign test on the 809 kills where they disagree: p = 0.40 -> NOT a clear difference (could be chance)
+  LightGBM + health: 26.4% vs broadcast 27.7% (p = 0.32)
+
+saved models/lgbm_picker.txt (fight aware); what it relies on most (share of total gain):
+  walk_nearest_enemy     22.6%
+  y                      11.7%
+  x                      11.2%
+  round_time              7.6%
+  speed                   7.3%
+  straight_nearest_enemy  6.4%
+  enemies_walk_90         4.8%
+  closing_speed           4.5%
+  enemies_alive           3.8%
+  mates_walk_90           3.4%
+  visible_nearest_enemy   2.6%
+  mates_alive             2.2%

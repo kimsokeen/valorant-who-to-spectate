@@ -20,7 +20,7 @@ import cv2  # noqa: E402
 from pickpov.picker import (load_frames, pick_contested_walking, pick_most_contested,  # noqa: E402
                            pick_most_visible, pick_nearest_enemy, pick_nearest_walking)
 from pickpov.walls import Summit  # noqa: E402
-from pickpov.pov import load_pov, pov_at  # noqa: E402
+from pickpov.pov_data import load_pov, pov_at  # noqa: E402
 from pickpov.scoring import frames_needed, load_kills, run_picker, score_picks  # noqa: E402
 
 PICKERS = {"nearest_enemy": pick_nearest_enemy, "most_contested": pick_most_contested}
