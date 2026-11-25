@@ -190,6 +190,13 @@ def main() -> None:
         wins = sum(evaluate(p, meta, np.flatnonzero(maps == m))[1] > evaluate(rule, meta, np.flatnonzero(maps == m))[1]
                    for m in sorted(set(maps)))
         print(f"  LightGBM {v}: beats the rule on {wins} of {len(set(maps))} maps")
+    per_map = []                                       # one row per map and picker, for the results report
+    for m in sorted(set(maps)):
+        mi = np.flatnonzero(maps == m)
+        for label, sc in rows_out:
+            n, k, f_ = evaluate(sc, meta, mi)
+            per_map.append({"map": m, "picker": label, "kills_scored": n,
+                            "caught_killer": round(k, 4), "caught_fight": round(f_, 4)})
 
     best_v = max(preds, key=lambda v: evaluate(preds[v], meta, idx)[1])
     n, both, mo, bo, nei, pval = head_to_head(preds[best_v], meta)
@@ -212,6 +219,22 @@ def main() -> None:
     out = ROOT / "data" / "results"
     out.mkdir(parents=True, exist_ok=True)
     (out / "lgbm.txt").write_text("\n".join(_LOG) + "\n", encoding="utf-8")
+    with open(out / "lgbm_per_map.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(per_map[0]))
+        w.writeheader()
+        w.writerows(per_map)
+    with open(out / "lgbm_scores.csv", "w", newline="", encoding="utf-8") as f:
+        # every player's leave-one-map-out score 2.5 s before each kill (fight aware): the demo app shows these
+        w = csv.writer(f)
+        w.writerow(["map", "kill_id", "player", "score"])
+        for i, (m, kid, lead, p) in enumerate(x[:4] for x in meta):
+            if lead == TEST_LEAD:
+                w.writerow([m, kid, p, round(float(preds["fight aware"][i]), 5)])
+    with open(out / "lgbm_importance.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["feature", "gain_share"])
+        for name, g in sorted(zip(names, imp), key=lambda x: -x[1]):
+            w.writerow([name, round(g / imp.sum(), 4)])
     builtins.print("results saved to data/results/lgbm.txt")
 
 

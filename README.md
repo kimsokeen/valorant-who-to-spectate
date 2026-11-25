@@ -6,6 +6,10 @@ An AI observer for Valorant. PickPOV reads the minimap and HUD and suggests whic
 - **v1 (now):** offline on VCT Champions 2026 VODs, Summit only, to prove the picker works.
 - **Design rule:** the picker works on map positions, not screen pixels, so only the screen reader changes between sources (broadcast, replays, live).
 
+**Results:** 2.5 s before a kill, PickPOV is on the killer 26.6% of the time against 27.7% for the real VCT broadcast on the same kills, a gap that isn't statistically significant (p = 0.40). Full report: [RESULTS.md](RESULTS.md).
+
+**Demo:** `python app.py`, then open http://127.0.0.1:7860. Pick a map and step through its kills: the minimap 2.5 s before each kill, PickPOV's pick, what the broadcast showed, and who got the kill. It reads only `data/demo/moments.csv` (rebuilt by `scripts/build_demo_data.py`), so no video is needed.
+
 Project plan: https://claude.ai/artifact/ViEjjaMNen2KCbezofSDi2
 
 ## Dataset

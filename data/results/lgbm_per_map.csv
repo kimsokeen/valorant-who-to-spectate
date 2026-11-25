@@ -1,0 +1,91 @@
+map,picker,kills_scored,caught_killer,caught_fight
+2026-09-26_global-esports_vs_team-vitality_map3,best rule,155,0.2323,0.471
+2026-09-26_global-esports_vs_team-vitality_map3,linear model,155,0.2516,0.471
+2026-09-26_global-esports_vs_team-vitality_map3,"LightGBM, killer only",155,0.2258,0.4452
+2026-09-26_global-esports_vs_team-vitality_map3,"LightGBM, fight aware",155,0.2581,0.5097
+2026-09-26_global-esports_vs_team-vitality_map3,LightGBM + health,155,0.2452,0.4903
+2026-09-26_loud_vs_edward-gaming_map2,best rule,107,0.2336,0.5047
+2026-09-26_loud_vs_edward-gaming_map2,linear model,107,0.1869,0.4206
+2026-09-26_loud_vs_edward-gaming_map2,"LightGBM, killer only",107,0.2617,0.5234
+2026-09-26_loud_vs_edward-gaming_map2,"LightGBM, fight aware",107,0.243,0.486
+2026-09-26_loud_vs_edward-gaming_map2,LightGBM + health,107,0.2897,0.514
+2026-09-27_100-thieves_vs_t1_map1,best rule,129,0.2248,0.5349
+2026-09-27_100-thieves_vs_t1_map1,linear model,129,0.2558,0.5194
+2026-09-27_100-thieves_vs_t1_map1,"LightGBM, killer only",129,0.2481,0.4574
+2026-09-27_100-thieves_vs_t1_map1,"LightGBM, fight aware",129,0.2636,0.5194
+2026-09-27_100-thieves_vs_t1_map1,LightGBM + health,129,0.2636,0.5116
+2026-09-27_jd-gaming_vs_fut-esports_map2,best rule,155,0.2581,0.5097
+2026-09-27_jd-gaming_vs_fut-esports_map2,linear model,155,0.2387,0.4968
+2026-09-27_jd-gaming_vs_fut-esports_map2,"LightGBM, killer only",155,0.2581,0.4903
+2026-09-27_jd-gaming_vs_fut-esports_map2,"LightGBM, fight aware",155,0.2903,0.5097
+2026-09-27_jd-gaming_vs_fut-esports_map2,LightGBM + health,155,0.2839,0.4581
+2026-09-29_karmine-corp_vs_nrg_map2,best rule,160,0.2313,0.55
+2026-09-29_karmine-corp_vs_nrg_map2,linear model,160,0.3125,0.5625
+2026-09-29_karmine-corp_vs_nrg_map2,"LightGBM, killer only",160,0.275,0.5375
+2026-09-29_karmine-corp_vs_nrg_map2,"LightGBM, fight aware",160,0.2938,0.5938
+2026-09-29_karmine-corp_vs_nrg_map2,LightGBM + health,160,0.2875,0.5813
+2026-09-30_team-vitality_vs_loud_map2,best rule,253,0.249,0.5099
+2026-09-30_team-vitality_vs_loud_map2,linear model,253,0.2253,0.4901
+2026-09-30_team-vitality_vs_loud_map2,"LightGBM, killer only",253,0.2688,0.5296
+2026-09-30_team-vitality_vs_loud_map2,"LightGBM, fight aware",253,0.2688,0.5415
+2026-09-30_team-vitality_vs_loud_map2,LightGBM + health,253,0.2806,0.5336
+2026-10-01_tyloo_vs_team-liquid_map2,best rule,117,0.2821,0.5214
+2026-10-01_tyloo_vs_team-liquid_map2,linear model,117,0.3333,0.5812
+2026-10-01_tyloo_vs_team-liquid_map2,"LightGBM, killer only",117,0.3675,0.5641
+2026-10-01_tyloo_vs_team-liquid_map2,"LightGBM, fight aware",117,0.3162,0.5983
+2026-10-01_tyloo_vs_team-liquid_map2,LightGBM + health,117,0.3248,0.5983
+2026-10-01_xi-lai-gaming_vs_nongshim-redforce_map1,best rule,152,0.2697,0.5724
+2026-10-01_xi-lai-gaming_vs_nongshim-redforce_map1,linear model,152,0.2566,0.5526
+2026-10-01_xi-lai-gaming_vs_nongshim-redforce_map1,"LightGBM, killer only",152,0.3026,0.5395
+2026-10-01_xi-lai-gaming_vs_nongshim-redforce_map1,"LightGBM, fight aware",152,0.2829,0.5921
+2026-10-01_xi-lai-gaming_vs_nongshim-redforce_map1,LightGBM + health,152,0.2697,0.5789
+2026-10-02_global-esports_vs_edward-gaming_map1,best rule,131,0.2901,0.5802
+2026-10-02_global-esports_vs_edward-gaming_map1,linear model,131,0.2214,0.5115
+2026-10-02_global-esports_vs_edward-gaming_map1,"LightGBM, killer only",131,0.2748,0.4962
+2026-10-02_global-esports_vs_edward-gaming_map1,"LightGBM, fight aware",131,0.3053,0.5802
+2026-10-02_global-esports_vs_edward-gaming_map1,LightGBM + health,131,0.2672,0.542
+2026-10-03_karmine-corp_vs_nongshim-redforce_map2,best rule,117,0.2821,0.5641
+2026-10-03_karmine-corp_vs_nongshim-redforce_map2,linear model,117,0.2991,0.5299
+2026-10-03_karmine-corp_vs_nongshim-redforce_map2,"LightGBM, killer only",117,0.2393,0.5299
+2026-10-03_karmine-corp_vs_nongshim-redforce_map2,"LightGBM, fight aware",117,0.3077,0.5556
+2026-10-03_karmine-corp_vs_nongshim-redforce_map2,LightGBM + health,117,0.3419,0.5556
+2026-10-07_nrg_vs_t1_map2,best rule,118,0.2542,0.5932
+2026-10-07_nrg_vs_t1_map2,linear model,118,0.2034,0.5847
+2026-10-07_nrg_vs_t1_map2,"LightGBM, killer only",118,0.2373,0.5424
+2026-10-07_nrg_vs_t1_map2,"LightGBM, fight aware",118,0.2288,0.5424
+2026-10-07_nrg_vs_t1_map2,LightGBM + health,118,0.2797,0.5593
+2026-10-09_100-thieves_vs_nongshim-redforce_map1,best rule,124,0.1774,0.4113
+2026-10-09_100-thieves_vs_nongshim-redforce_map1,linear model,124,0.2016,0.4355
+2026-10-09_100-thieves_vs_nongshim-redforce_map1,"LightGBM, killer only",124,0.1774,0.3871
+2026-10-09_100-thieves_vs_nongshim-redforce_map1,"LightGBM, fight aware",124,0.1613,0.4113
+2026-10-09_100-thieves_vs_nongshim-redforce_map1,LightGBM + health,124,0.1774,0.4274
+2026-10-09_t1_vs_paper-rex_map3,best rule,152,0.25,0.4737
+2026-10-09_t1_vs_paper-rex_map3,linear model,152,0.2237,0.4671
+2026-10-09_t1_vs_paper-rex_map3,"LightGBM, killer only",152,0.1974,0.4145
+2026-10-09_t1_vs_paper-rex_map3,"LightGBM, fight aware",152,0.2434,0.4934
+2026-10-09_t1_vs_paper-rex_map3,LightGBM + health,152,0.1842,0.4342
+2026-10-10_nrg_vs_loud_map3,best rule,97,0.2887,0.5361
+2026-10-10_nrg_vs_loud_map3,linear model,97,0.268,0.5052
+2026-10-10_nrg_vs_loud_map3,"LightGBM, killer only",97,0.2577,0.5155
+2026-10-10_nrg_vs_loud_map3,"LightGBM, fight aware",97,0.268,0.4948
+2026-10-10_nrg_vs_loud_map3,LightGBM + health,97,0.2577,0.4948
+2026-10-16_100-thieves_vs_g2-esports_map3,best rule,129,0.2093,0.5271
+2026-10-16_100-thieves_vs_g2-esports_map3,linear model,129,0.3023,0.5271
+2026-10-16_100-thieves_vs_g2-esports_map3,"LightGBM, killer only",129,0.2791,0.5426
+2026-10-16_100-thieves_vs_g2-esports_map3,"LightGBM, fight aware",129,0.2558,0.5581
+2026-10-16_100-thieves_vs_g2-esports_map3,LightGBM + health,129,0.2636,0.5659
+2026-10-16_team-vitality_vs_loud_map2,best rule,129,0.2016,0.5116
+2026-10-16_team-vitality_vs_loud_map2,linear model,129,0.186,0.4806
+2026-10-16_team-vitality_vs_loud_map2,"LightGBM, killer only",129,0.2171,0.4341
+2026-10-16_team-vitality_vs_loud_map2,"LightGBM, fight aware",129,0.2713,0.5194
+2026-10-16_team-vitality_vs_loud_map2,LightGBM + health,129,0.2403,0.5194
+2026-10-17_team-vitality_vs_100-thieves_map2,best rule,158,0.2722,0.5506
+2026-10-17_team-vitality_vs_100-thieves_map2,linear model,158,0.2468,0.5
+2026-10-17_team-vitality_vs_100-thieves_map2,"LightGBM, killer only",158,0.2911,0.5
+2026-10-17_team-vitality_vs_100-thieves_map2,"LightGBM, fight aware",158,0.2405,0.4684
+2026-10-17_team-vitality_vs_100-thieves_map2,LightGBM + health,158,0.2595,0.481
+2026-10-18_loud_vs_team-vitality_map1,best rule,161,0.2733,0.5652
+2026-10-18_loud_vs_team-vitality_map1,linear model,161,0.3106,0.5466
+2026-10-18_loud_vs_team-vitality_map1,"LightGBM, killer only",161,0.2671,0.4969
+2026-10-18_loud_vs_team-vitality_map1,"LightGBM, fight aware",161,0.2919,0.5404
+2026-10-18_loud_vs_team-vitality_map1,LightGBM + health,161,0.2733,0.5404
