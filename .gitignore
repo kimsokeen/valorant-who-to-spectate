@@ -22,3 +22,13 @@ venv/
 
 # Walking-distance tables (rebuilt automatically in seconds)
 configs/maps/cache/
+
+# live-mode tests: replay logs and models trained without one map
+data/live/
+models/lgbm_without_*.txt
+
+# Agent portraits cut from the broadcast player cards (scripts/build_card_art.py rebuilds them)
+configs/cards/
+
+# Clean Summit minimap for the demo, cut from broadcast crops (scripts/build_demo_data.py rebuilds it)
+configs/maps/summit_minimap.png

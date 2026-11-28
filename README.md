@@ -8,7 +8,7 @@ An AI observer for Valorant. PickPOV reads the minimap and HUD and suggests whic
 
 **Results:** 2.5 s before a kill, PickPOV is on the killer 26.6% of the time against 27.7% for the real VCT broadcast on the same kills, a gap that isn't statistically significant (p = 0.40). Full report: [RESULTS.md](RESULTS.md).
 
-**Demo:** `python app.py`, then open http://127.0.0.1:7860. Pick a map and step through its kills: the minimap 2.5 s before each kill, PickPOV's pick, what the broadcast showed, and who got the kill. It reads only `data/demo/moments.csv` (rebuilt by `scripts/build_demo_data.py`), so no video is needed.
+**Demo:** `python app.py`, then open http://127.0.0.1:7860. Pick a map and step through its kills: the minimap 2.5 s before each kill, PickPOV's pick, what the broadcast showed, and who got the kill. It reads only `data/demo/moments.csv` and a clean Summit minimap, both made by `scripts/build_demo_data.py`. The minimap is cut from broadcast crops, so it isn't in git: run that script once on a machine that has `crops/`.
 
 Project plan: https://claude.ai/artifact/ViEjjaMNen2KCbezofSDi2
 
@@ -139,6 +139,28 @@ At the moment of the kill, the real broadcast was on the killer 45.0% of the tim
 
 Known limitation: boxes and small cover aren't in the floor map. They're faint on the minimap, and players often shoot over or around them, so marking them as solid walls would be wrong in a different way; the effect on line of sight is small. Height (stairs, ledges) is also lost on the flat minimap. Just before kills, a killer can see his victim 70% of the time but only 12% of his other enemies.
 
+## Live mode
+
+Play a VCT broadcast on Summit (YouTube or Twitch, live or VOD) fullscreen, or in a 16:9 window given with `--region`, and run:
+
+```
+python scripts/build_card_art.py     # once: agent portraits from the player cards -> configs/cards/
+python scripts/live.py               # or: --monitor 2, --region LEFT TOP W H
+```
+
+A small always-on-top window shows the minimap as PickPOV reads it and who to watch, twice a second, as a player number: the left team's cards are 1–5 top to bottom, the right team's 6–9 and 0. A fullscreen video on a screen that isn't 16:9 (e.g. 2560×1600) is fine: the black bars are cut off before reading.
+
+Picks are held: PickPOV stays on a player at least 1.5 s, then moves to whoever is top, or at once if the watched player dies (grey card, or gone from the minimap). On the two replayed maps below, that costs no accuracy (29.9% held vs 29.6% unheld, both maps together) and cuts switching from 38 to 25 a minute. The real broadcast switches about 11 times a minute; slower settings tried (longer holds, or switching only to a clearly better player) got down to 14 a minute but lost 2–4 points. Agents and team colours come from the player cards (the 14 px minimap icons can't tell look-alikes apart); then each player is tracked near his last minimap position, so a frame takes ~100–120 ms. Rounds come from the score digits, as offline.
+
+Tested by replaying two maps' saved crops through the same code (`--replay crops/<map> --speed 0 --log data/live/<map>.csv`, then `scripts/check_live.py`), with a model trained without that map (`scripts/train_lgbm_without.py`):
+
+| Map | All 10 agents right | Offline positions found live | Caught the killer, live | Same model, offline |
+| --- | --- | --- | --- | --- |
+| JD Gaming vs FUT Esports, map 2 | 21 of 23 rounds | 85% | 28.1% | 29.0% |
+| LOUD vs Team Vitality, map 1 | 23 of 24 rounds | 86% | 31.1% | 29.2% |
+
+Limits: Summit and the Champions 2026 overlay only. Card portraits exist for the 21 agents played on Summit in the dataset; a broadcast with another agent falls back to finding agents on the minimap, which mixes up look-alikes.
+
 ## Roadmap
 
 1. **Data** — VODs, calibrated regions, skip replays and caster cams
@@ -146,7 +168,8 @@ Known limitation: boxes and small cover aren't in the floor map. They're faint o
 3. **Rule baseline** — nearest-enemy picker, scored against the broadcast
 4. **ML model** — LightGBM on per-player features
 5. **Ship v1** — Gradio app, results report
+6. **Live mode** — screen capture of a broadcast (done; Summit only)
 
-Then: live mode via screen capture.
+Then: the in-game spectator client, and more maps.
 
 VODs are downloaded for personal study only. Not affiliated with Riot Games.

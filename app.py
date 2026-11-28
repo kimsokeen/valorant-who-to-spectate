@@ -19,7 +19,11 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent
 MOMENTS = pd.read_csv(ROOT / "data" / "demo" / "moments.csv", keep_default_na=False)
-BACKGROUND = Image.open(ROOT / "configs" / "maps" / "summit_minimap.png").convert("RGB")
+_bg = ROOT / "configs" / "maps" / "summit_minimap.png"
+if not _bg.exists():
+    raise SystemExit("configs/maps/summit_minimap.png is missing: run scripts/build_demo_data.py "
+                     "(it needs the crops/ folders), then start the demo again.")
+BACKGROUND = Image.open(_bg).convert("RGB")
 SCALE = 2
 FONT_DIR = Path(matplotlib.get_data_path()) / "fonts" / "ttf"
 FONT = ImageFont.truetype(str(FONT_DIR / "DejaVuSans-Bold.ttf"), 15)
